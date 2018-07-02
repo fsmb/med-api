@@ -50,4 +50,4 @@ These are codes you can receive in the response of a request
 ## Resources
 
 - [Practitioners](Docs/Practitioners/Practitioner.md)
-- [Licenseure](Docs/Licensure/Licensure.md)
+- [Licensure](Docs/Licensure/Licensure.md)
