@@ -2,10 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\Docs",
-    "\\Docs\\Practitioners",
+    "\\Docs\\Licensure",
     "\\Samples",
-    "\\Samples\\C#"
+    "\\Samples\\CSharp"
   ],
-  "SelectedNode": "\\Samples\\C#",
+  "SelectedNode": "\\Docs\\Licensure\\GetLicenseStatus.md",
   "PreviewInSolutionExplorer": false
 }

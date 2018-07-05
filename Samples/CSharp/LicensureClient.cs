@@ -1,18 +1,24 @@
 using System;
 using System.Net.Http;
 
-namespace ConsoleApp1s
+namespace CSharp
 {
-    public class LicensureSearchClient : HttpClient
+    public class LicensureClient : HttpClient
     {
         //Access token
         string token;
         string baseURL;
 
-        public LicensureSearchClient(string accessToken, string baseUrl)
+        public LicensureClient(string accessToken, string baseUrl)
         {
             token = accessToken;
             baseURL = baseUrl;
+            DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
+        }
+
+        public void Authorize(string accessToken)
+        {
+            token = accessToken;
             DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
         }
 
@@ -22,7 +28,7 @@ namespace ConsoleApp1s
         /// <param name="fid">fid of practitioner</param>
         public void GetLicenseStatus(string fid)
         {
-            string url = baseURL + String.Format("/v1/licensure/{0}/summary?fid={0}", fid);
+            string url = baseURL + String.Format("/v1/licensure/{0}/summary", fid);
             var response = GetStringAsync(url);
             Console.WriteLine(response.Result);
             //Output: { "fid":"#########","count":# }
