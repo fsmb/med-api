@@ -6,7 +6,7 @@ Provides profile information about a medical professional
 | ---- | ------ | -------- | ----------- |
 | fid  | string | True | The medical professional's federation ID |
 |identity| [Identification](#identification)| True | The medical professional's identity information |
-|names |[Name](#name)[]| True | A collection of the medical professionals's names |
+|names |[ProfessionalName](#professionalname)[]| True | A collection of the medical professionals's names |
 |addresses| [Address](#address)[] | True | A collection of the medical professional's addresses|
 |emailAddresses|[EmailAddress](#emailaddress)[]| True | A collection of the medical professional's email addresses |
 |phones|[Phone](#phone)[]| True | A collection of the medical professional's phone numbers|
@@ -136,7 +136,7 @@ Provides the medical education information of a medical professional
 | degree | [CodedDescription](codedDescription.md) | False | The degree |
 | graduationDate | DateTime | False |The date the medical professional who attended the school graduated | 
 
-## Name
+## ProfessionalName
 
 Provides the name information of a medical professional
 
