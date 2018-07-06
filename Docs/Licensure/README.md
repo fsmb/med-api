@@ -1,10 +1,10 @@
-# Licensure Resource
+# Licensure
 
-The Licensure resource allows for operations regarding a practitioner's licenses.
+The licensure resource allows for operations regarding a medical professional's licenses
 
 
 ## Operations
 
 | Operation | Description |
 | --------- | ----------- |
-| [Get License Status](GetLicenseStatus.md) | Get License Status allows you to provide a practitioner's federation ID in return for the number of licenses they have. |
+| [Get License Status](GetLicenseStatus.md) |Get the license status of a medical professional |

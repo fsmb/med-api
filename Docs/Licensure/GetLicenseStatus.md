@@ -1,6 +1,6 @@
 # Get License Status
 
-Retrieves the number of licenses associated with a federation ID
+Retrieves the number of licenses associated with a medical professional
  
 ```HTTP 
 GET {baseUrl}/v1/licensure/{fid}/summary
@@ -17,14 +17,14 @@ GET {baseUrl}/v1/licensure/{fid}/summary
 
 | Name | Description     | Type  |
 | ---- | --------------- | ----- |
-| 200  | OK              | [LicenseSummary](LicenseSummary.md) |
+| 200  | OK              | [LicenseSummary](../Types/LicenseSummary.md) |
 | 400  | Bad Request     |  |
 | 401  | Unauthorized    |  |
 | 500  | Server Error    |  |
 
 ## Scope
 
-This request requires an OAuth scope of med.read in order to execute.
+This request requires an OAuth scope of `med.read` in order to execute.
 
 ## Example
 

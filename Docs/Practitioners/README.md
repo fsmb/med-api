@@ -1,13 +1,12 @@
-# Practitioners Resource
+# Practitioners
 
-A practitioner is a medical professional. 
-The MED API allows for gathering information about a practitioner. 
+The practitioner resource allows the user to gather information about a medical professional. 
 
 
 ## Operations
 
 | Operation | Description |
 | --------- | ----------- |
-| [Find Practitioner](FindPractitioner.md) | Find Practitioner allows you to provide a practitioner's personal information in return for their federation ID. |
-| [Retrieve Profile](RetrieveProfile.md) | Retrieve Profile allows you to provide a practitioner's federation ID in return for their profile information. |
-| [Retrieve Board Orders and Licenses]( RetrieveBOandL.md) | RetrieveBoard Orders and Licenses allows you to provide a practitioner's federation ID in return for their Board Order and License information. |
+| [Find Practitioner](FindPractitioner.md) | Find medical professional allows you to provide a medical professional's personal information in return for their federation ID |
+| [Retrieve Profile](RetrieveProfile.md) | Retrieve Profile allows you to provide a medical professional's federation ID in return for their profile information |
+| [Retrieve Board Orders and Licenses]( RetrieveBOandL.md) | RetrieveBoard Orders and Licenses allows you to provide a medical professional's federation ID in return for their Board Order and License information |

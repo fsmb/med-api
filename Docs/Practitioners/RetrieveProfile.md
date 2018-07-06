@@ -1,6 +1,6 @@
 # Retrieve Profile
 
-Retrieves a practitioner's profile information with a federation ID
+Retrieves a medical professional's profile information with their associated federation ID
  
 ```HTTP 
 GET {baseUrl}/v1/practitioners/{fid}/profile
@@ -11,20 +11,20 @@ GET {baseUrl}/v1/practitioners/{fid}/profile
 | Name | In | Required | Type | Description |
 | ---- | -- | -------- | ---- | ----------- |
 | `baseUrl` | path | True | string| The API url |
-| `fid` | path | True | string | The practitioner's federation ID |
+| `fid` | path | True | string | The medical professional's federation ID |
 
 ## Responses
 
 | Name | Description     | Type  |
 | ---- | --------------- | ----- |
-| 200  | OK              | [Profile](Profile.md) |
+| 200  | OK              | [Profile](../Types/Profile.md) |
 | 400  | Bad Request     |  |
 | 401  | Unauthorized    |  |
 | 500  | Server Error    |  |
 
 ## Scope
 
-This request requires the OAuth scopes of med.read and med.cdc_read in order to execute.
+This request requires the OAuth scopes of `med.read` and `med.cdc_read` in order to execute.
 
 ## Example
 

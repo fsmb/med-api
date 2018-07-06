@@ -1,12 +1,10 @@
-<section style="text-align: center;">
+# MED API
 
-# Federation of State Medical Boards</br>MED API Documentation
-</section>
 
-This is the source for technical information for the Federation of State Medical Boards' Federation Credentials Verification Service (MED) RESTful API. 
+This is the source for technical information for the Federation of State Medical Boards' Federation Credentials Verification Service (MED) [REST API](https://en.wikipedia.org/wiki/Representational_state_transfer). 
 The MED API is one of the interfaces available for MED data retrieval by state medical boards (SMBs). 
 
-If you are interested in learning more about this API, using it in your application or accessing the Postman collection,  please contact [FSMB](mailto:pdc@fsmb.org).
+If you are interested in learning more about this API, using it in your application or accessing the [Postman]( https://www.getpostman.com/) collection,  please contact [FSMB](mailto:pdc@fsmb.org).
 
 
 ## Authentication 

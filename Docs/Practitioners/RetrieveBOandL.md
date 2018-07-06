@@ -1,4 +1,4 @@
-# Retrieve Board Orders and Licences
+# Retrieve Board Orders and Licenses
 
 Retrieves Board Orders and Licenses associated with a federation ID
  
@@ -17,14 +17,14 @@ GET {baseUrl}/v1/practitioners/{fid}/verification
 
 | Name | Description     | Type  |
 | ---- | --------------- | ----- |
-| 200  | OK              | [PdcPractitioner](PdcPractitioner.md)  |
+| 200  | OK              | [PdcPractitioner](../Types/PdcPractitioner.md)  |
 | 400  | Bad Request     |  |
 | 401  | Unauthorized    |  |
 | 500  | Server Error    |  |
 
 ## Scope
 
-This request requires the OAuth scopes of med.read and med.source_read in order to execute.
+This request requires the OAuth scopes of `med.read` and `med.source_read` in order to execute.
 
 ## Example
 
