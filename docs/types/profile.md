@@ -136,18 +136,6 @@ Provides the medical education information of a medical professional
 | degree | [CodedDescription](codedDescription.md) | False | The degree |
 | graduationDate | DateTime | False |The date the medical professional who attended the school graduated | 
 
-## ProfessionalName
-
-Provides the name information of a medical professional
-
-| Name | Type   | Required | Description |
-| ---- | ------ | -------- | ----------- |
-| isLegal  | boolean | False | Indicates whether the provided name is their legal name |
-| firstName| string | True | The medical professional's first name |
-| middleName | string | False | The medical professional's middle name |
-| lastName | string | True | The medical professional's last name |
-| suffix | string | False | The suffix the medical professional uses |
-
 ## OtherTraining
 
 Provides the other training information of a medical professional
@@ -171,6 +159,18 @@ Provides the phone information of a medical professional
 | phoneType | string | Indicates the phone type |
 | phoneNumber | string | The medical professional's phone number |
 | extension | string | The extension for the phone number |
+
+## ProfessionalName
+
+Provides the name information of a medical professional
+
+| Name | Type   | Required | Description |
+| ---- | ------ | -------- | ----------- |
+| isLegal  | boolean | False | Indicates whether the provided name is their legal name |
+| firstName| string | True | The medical professional's first name |
+| middleName | string | False | The medical professional's middle name |
+| lastName | string | True | The medical professional's last name |
+| suffix | string | False | The suffix the medical professional uses |
 
 ## Program
 
