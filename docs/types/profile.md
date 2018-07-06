@@ -106,7 +106,7 @@ Provides the Fifth Pathway medical school information of a medical professional
 | name  | string | True | The name of the school |
 | affiliatedInstitution| string | True | The institution associated with the school |
 | cibisCode | string | True |The code that CIBIS uses to identify the school |
-| schoolType | [CodedDescription](CodedDescription.md) | False | The degree information |
+| schoolType | [CodedDescription](codedDescription.md) | False | The degree information |
 | city | string | False | The name of the city where the school is located |
 | stateOrProvince | [Region](#region) | False | The state or province where the school is located | 
 
@@ -133,7 +133,7 @@ Provides the medical education information of a medical professional
 | school  | [School](#school) | True | School information |
 | beginDate | DateTime | False |The date a medical professional started attending  a school |
 | endDate | DateTime | False | The date a medical professional finished attending a school |
-| degree | [CodedDescription](CodedDescription.md) | False | The degree |
+| degree | [CodedDescription](codedDescription.md) | False | The degree |
 | graduationDate | DateTime | False |The date the medical professional who attended the school graduated | 
 
 ## Name
@@ -202,7 +202,7 @@ Provides the medical school information of a medical professional
 | ---- | ------ | -------- | ----------- |
 | name  | string | True | The name of the school |
 | cibisCode | string | False| The code that CIBIS uses to identify the school |
-| schoolType | [CodedDescription](CodedDescription.md) | True | Practitioner Type for the school |
+| schoolType | [CodedDescription](codedDescription.md) | True | Practitioner Type for the school |
 | city | string | False | The name of the city where the school is located |
 | stateOrProvince | [Region](#region) | False | The state or province where the school is located | 
 
