@@ -10,11 +10,11 @@ Provides profile information about a medical professional
 |addresses| [Address](#address)[] | True | A collection of the medical professional's addresses|
 |emailAddresses|[EmailAddress](#emailaddress)[]| True | A collection of the medical professional's email addresses |
 |phones|[Phone](#phone)[]| True | A collection of the medical professional's phone numbers|
-|medicalEducation|[MedicalEducation](#medicalEducation)[]| True | A collection of the medical professional's Medical Education |
+|medicalEducation|[MedicalEducation](#medicaleducation)[]| True | A collection of the medical professional's Medical Education |
 |ecfmg|[ECFMG](#ecfmg)| False | The medical professional's ECFMG information|
-|fifthPathway|[FifthPathway](#fifthPathway)| False | The medical professional's Fifth Pathway information |
-|accreditedTraining| [AccreditedTraning](#accreditedTraining)[]| False | A collection of the medical professional's accredited training |
-|otherTraining| [OtherTraining](#otherTraining)[] | False | A collection of the medical professional's other training |
+|fifthPathway|[FifthPathway](#fifthpathway)| False | The medical professional's Fifth Pathway information |
+|accreditedTraining| [AccreditedTraning](#accreditedtraining)[]| False | A collection of the medical professional's accredited training |
+|otherTraining| [OtherTraining](#othertraining)[] | False | A collection of the medical professional's other training |
 |activities| [Activity](#activity)[]| False |A collection of the medical professional's activities|
 
 ## AccreditedTraining
