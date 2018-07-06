@@ -22,7 +22,7 @@ GET {baseUrl}/v1/practitioners/search?name={name}&birthDate={date}&ssnlast4={ssn
 
 | Name | Description     | Type  |
 | ---- | --------------- | ----- |
-| 200  | OK              | [MedicalProfessionalIdentity](../Types/MedicalProfessionalIdentity.md)  |
+| 200  | OK              | [MedicalProfessionalIdentity](../types/medicalProfessionalIdentity.md)  |
 | 400  | Bad Request     |  |
 | 401  | Unauthorized    |  |
 | 500  | Server Error    |  |

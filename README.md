@@ -47,5 +47,5 @@ These are codes you can receive in the response of a request
 
 ## Resources
 
-- [Practitioners](Docs/Practitioners/README.md)
-- [Licensure](Docs/Licensure/README.md)
+- [Practitioners](docs/practitioners/README.md)
+- [Licensure](docs/licensure/README.md)

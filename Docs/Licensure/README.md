@@ -7,4 +7,4 @@ The licensure resource allows for operations regarding a medical professional's 
 
 | Operation | Description |
 | --------- | ----------- |
-| [Get License Status](GetLicenseStatus.md) |Get the license status of a medical professional |
+| [Get License Status](getLicenseStatus.md) |Get the license status of a medical professional |

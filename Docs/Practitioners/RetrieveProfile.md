@@ -17,7 +17,7 @@ GET {baseUrl}/v1/practitioners/{fid}/profile
 
 | Name | Description     | Type  |
 | ---- | --------------- | ----- |
-| 200  | OK              | [Profile](../Types/Profile.md) |
+| 200  | OK              | [Profile](../types/profile.md) |
 | 400  | Bad Request     |  |
 | 401  | Unauthorized    |  |
 | 500  | Server Error    |  |
@@ -62,4 +62,4 @@ Output:
 }
 ```
 
-For language specific examples go to [samples](/Samples/)
+For language specific examples go to [samples](/samples/)
