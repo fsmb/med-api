@@ -8,7 +8,7 @@ Provides profile information about a medical professional
 |identity| [Identification](#identification)| True | The medical professional's identity information |
 |names |[Name](#name)[]| True | A collection of the medical professionals's names |
 |addresses| [Address](#address)[] | True | A collection of the medical professional's addresses|
-|emailAddresses|[EmailAddress](#emailAddress)[]| True | A collection of the medical professional's email addresses |
+|emailAddresses|[EmailAddress](#emailaddress)[]| True | A collection of the medical professional's email addresses |
 |phones|[Phone](#phone)[]| True | A collection of the medical professional's phone numbers|
 |medicalEducation|[MedicalEducation](#medicalEducation)[]| True | A collection of the medical professional's Medical Education |
 |ecfmg|[ECFMG](#ecfmg)| False | The medical professional's ECFMG information|
