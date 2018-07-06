@@ -43,4 +43,4 @@ Output:
 }
 ```
 
-For language specific examples go to [samples](/samples/)
+For language specific examples go to [samples](/Samples/)
