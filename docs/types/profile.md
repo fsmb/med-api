@@ -92,7 +92,7 @@ Provides the Fifth Pathway certification information of a medical professional
 
 | Name | Type   | Required | Description |
 | ---- | ------ | -------- | ----------- |
-| school | [FifthPathwaySchool](#fifthPathwaySchool) | True | The school the medical professional attended to receive their Fifth Pathway certification |
+| school | [FifthPathwaySchool](#fifthpathwayschool) | True | The school the medical professional attended to receive their Fifth Pathway certification |
 |startDate| DateTime | False | The date the medical professional started attendance at the Fifth Pathway school |
 |endDate |DateTime| False | The date the medical professional finished attending the Fifth Pathway school |
 |certificateDate | DateTime | False |The date the medical professional received their Fifth Pathway certification |
