@@ -42,9 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LicensureClient.cs" />
-    <Compile Include="PractitionerClient.cs" />
+    <Compile Include="AuthenticationService.CS" />
+    <Compile Include="LicensureService.cs" />
+    <Compile Include="Objects.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="PractitionerService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
