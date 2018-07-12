@@ -4,9 +4,10 @@ Provides profile information about a medical professional
 
 | Name | Type   | Required | Description |
 | ---- | ------ | -------- | ----------- |
-| fid  | string | True | The medical professional's federation ID |
+| fid  | string | True | The medical professional's FID |
 |identity| [Identification](#identification)| True | The medical professional's identity information |
-|names |[ProfessionalName](#professionalname)[]| True | A collection of the medical professionals's names |
+|names |[ProfessionalName](#professionalname)[]| True | A collection of the medical professional's names |
+|names |[ProfessionalName](#professionalname)[]| True | A collection of the medical professional's names |
 |addresses| [Address](#address)[] | True | A collection of the medical professional's addresses|
 |emailAddresses|[EmailAddress](#emailaddress)[]| True | A collection of the medical professional's email addresses |
 |phones|[Phone](#phone)[]| True | A collection of the medical professional's phone numbers|
@@ -48,7 +49,7 @@ Provides information about an activity a medical professional took part in
 | stateOrProvince | [Region](#region) | True | The region where the activity has taken, or is taking, place |
 | postalCode | string | False | The postal code where the activity has taken, or is taking, place |
 | position | string | False | The medical professional's position during the activity |
-| department | string | False | The department the medical professional was located in during the activity |
+| department | string | False | The department the medical professional was in during the activity |
 | wasEmployed | boolean | False | Indicates whether the medical professional was employed during the activity |
 | hadStaffPrivilages | boolean | False | Indicates whether the medical professional had staff privileges over the duration of the activity |
 | wasAffiliated | boolean | False | Indicates whether the medical professional had any affiliations during the duration of the activity |

@@ -16,7 +16,9 @@ Contact FSMB for access to a client id and client secret.
 Using the client id and client secret execute the authentication request. 
 You will receive an access token of type bearer in the response.
 All subsequent requests will require the token as an authorization header. 
-After a set period of time the token will expire and it will be necessary to get another token.
+
+After a set period of time the token will expire, and it will be necessary to get another token.
+
 
 For more information regarding OAuth2 go to the website: https://oauth.net/2/
 

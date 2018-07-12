@@ -4,7 +4,7 @@ Provides information about a medical professional related to board orders and li
 
 | Name | Type   | Required | Description |
 | ---- | ------ | -------- | ----------- |
-| fid  | string | False | Federation ID of the medical professional |
+| fid  | string | False | FID of the medical professional |
 | boardOrders | [BoardOrder](#boardOrder)[]| False | A collection of the professional's board orders |
 | licenses | [License](#license)[] | False | A collection of the professional's licenses |
 
