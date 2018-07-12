@@ -1,6 +1,6 @@
 # Retrieve Board Orders and Licenses
 
-Retrieves Board Orders and Licenses associated with a federation ID
+Retrieves Board Orders and Licenses associated with a FID
  
 ```HTTP 
 GET {baseUrl}/v1/practitioners/{fid}/verification
@@ -11,7 +11,7 @@ GET {baseUrl}/v1/practitioners/{fid}/verification
 | Name | In | Required | Type | Description |
 | ---- | -- | -------- | ---- | ----------- |
 | `baseUrl` | path | True | string| The API url |
-| `fid` | path | True | string | The practitioner's federation ID |
+| `fid` | path | True | string | The practitioner's FID |
 
 ## Responses
 

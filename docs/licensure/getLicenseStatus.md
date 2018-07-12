@@ -11,7 +11,7 @@ GET {baseUrl}/v1/licensure/{fid}/summary
 | Name | In | Required | Type | Description |
 | ---- | -- | -------- | ---- | ----------- |
 | `baseUrl` | path | True | string| The API url |
-| `fid` | path | True | string | The federation ID of the practitioner |
+| `fid` | path | True | string | The FID of the practitioner |
 
 ## Responses
 

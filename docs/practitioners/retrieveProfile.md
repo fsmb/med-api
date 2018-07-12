@@ -1,6 +1,6 @@
 # Retrieve Profile
 
-Retrieves a medical professional's profile information with their associated federation ID
+Retrieves a medical professional's profile information with their associated FID
  
 ```HTTP 
 GET {baseUrl}/v1/practitioners/{fid}/profile
@@ -11,7 +11,7 @@ GET {baseUrl}/v1/practitioners/{fid}/profile
 | Name | In | Required | Type | Description |
 | ---- | -- | -------- | ---- | ----------- |
 | `baseUrl` | path | True | string| The API url |
-| `fid` | path | True | string | The medical professional's federation ID |
+| `fid` | path | True | string | The medical professional's FID |
 
 ## Responses
 
