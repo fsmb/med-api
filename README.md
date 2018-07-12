@@ -47,6 +47,10 @@ These are codes you can receive in the response of a request
 | PATCH     | Update/Modify |
 | DELETE    | Delete |
 
+## Definitions
+
+FID - Federation ID. A 9 digit number used to access information about a medical professional.
+
 ## Resources
 
 - [Practitioners](docs/practitioners/README.md)
