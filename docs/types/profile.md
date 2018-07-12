@@ -7,7 +7,6 @@ Provides profile information about a medical professional
 | fid  | string | True | The medical professional's FID |
 |identity| [Identification](#identification)| True | The medical professional's identity information |
 |names |[ProfessionalName](#professionalname)[]| True | A collection of the medical professional's names |
-|names |[ProfessionalName](#professionalname)[]| True | A collection of the medical professional's names |
 |addresses| [Address](#address)[] | True | A collection of the medical professional's addresses|
 |emailAddresses|[EmailAddress](#emailaddress)[]| True | A collection of the medical professional's email addresses |
 |phones|[Phone](#phone)[]| True | A collection of the medical professional's phone numbers|
