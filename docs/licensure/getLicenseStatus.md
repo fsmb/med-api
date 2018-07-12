@@ -13,6 +13,7 @@ GET {baseUrl}/v1/licensure/{fid}/summary
 | `baseUrl` | path | True | string| The API url |
 | `fid` | path | True | string | The FID of the practitioner |
 
+
 ## Responses
 
 | Name | Description     | Type  |

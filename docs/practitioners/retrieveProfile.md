@@ -1,7 +1,7 @@
 # Retrieve Profile
 
 Retrieves a medical professional's profile information with their associated FID
- 
+
 ```HTTP 
 GET {baseUrl}/v1/practitioners/{fid}/profile
 ```

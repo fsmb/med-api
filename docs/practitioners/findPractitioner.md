@@ -14,6 +14,7 @@ GET {baseUrl}/v1/practitioners/search?name={name}&birthDate={date}&ssnlast4={ssn
 | `name` | query | True | string | The full name of the medical professional  |
 | `date` | query | True | DateTime| The birth date of the medical professional  formatted as mm/dd/yyyy |
 | `ssn` | query | * | string | The last four numbers of the medical professional's social security number (SSN) |
+
 |`license`| query | *| string| The medical professional's license number|
 
 <sub>*If ssn is provided then license is not required and vice versa. Only provide one or the other. </sub>
