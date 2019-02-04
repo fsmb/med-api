@@ -1,4 +1,4 @@
-# Find a Practitioner
+# Search
 
 Finds a medical professional based upon the search criteria provided
  
