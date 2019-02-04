@@ -7,11 +7,12 @@ To learn more about FSMB APIs refer to the [Getting Started](https://github.com/
 ## Change Log
 
 | Version | Date | Release Notes |
+| - | - | -|
 |   1 | | Initial version |
 
-## Authentication
+## Security
 
-The following OAuth2 scopes are defined for this API.
+### Scopes 
 
 | Scope | Description |
 | - | - |
