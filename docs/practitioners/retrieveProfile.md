@@ -1,4 +1,4 @@
-# Retrieve Profile
+# Profile
 
 Retrieves a medical professional's profile information with their associated FID
 
@@ -31,23 +31,23 @@ This request requires the OAuth scopes of `med.read` and `med.cdc_read` in order
 Input:
 
 ```HTTP
-GET {baseUrl}/v1/practitioners/205147010/profile
+GET {baseUrl}/v1/practitioners/999999907/profile
 ```
 
 Output:
 
 ```json
 {
-    "fid": "205147010",
+    "fid": "999999907",
     "identity": {
         "usmleId": "n/a",
-        "birthDate": "1950-01-23",
-        "birthCity": "Euless",
+        "birthDate": "1988-09-02",
+        "birthCity": "",
         "birthStateOrProvince": {
-            "code": "TX",
-            "description": "Texas",
-            "countryCode": "US",
-            "countryDescription": "United States"
+            "code": "",
+            "description": "",
+            "countryCode": "",
+            "countryDescription": "Unite"
         },
         "gender": "M"
     },
