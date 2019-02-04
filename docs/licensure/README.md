@@ -8,5 +8,3 @@ The licensure resource allows for operations regarding a medical professional's 
 | Operation | Description |
 | --------- | ----------- |
 | [Get License Status](getLicenseStatus.md) |Get the license status of a medical professional |
-
-For more examples go to [samples](/../samples/)
