@@ -10,44 +10,46 @@ GET {baseUrl}/v1/practitioners/{fid}/profile
 
 | Name | In | Required | Type | Description |
 | ---- | -- | -------- | ---- | ----------- |
-| `baseUrl` | path | True | string| The API url |
-| `fid` | path | True | string | The medical professional's FID |
+| baseUrl | path | True | string| The API URL. |
+| fid | path | True | string | The medical professional's FID. |
 
 ## Responses
 
 | Name | Description     | Type  |
 | ---- | --------------- | ----- |
 | 200  | OK              | [Profile](../types/profile.md) |
-| 400  | Bad Request     |  |
-| 401  | Unauthorized    |  |
-| 500  | Server Error    |  |
 
-## Scope
+## Security
 
-This request requires the OAuth scopes of `med.read` and `med.cdc_read` in order to execute.
+### Scopes
+
+| Scope | Description |
+| - | - |
+| med.read | Grants the ability to read basic physician information. |
+| med.cdc_read | Grants the ability to read basic board order and licensure information. |
 
 ## Example
 
 Input:
 
 ```HTTP
-GET {baseUrl}/v1/practitioners/205147010/profile
+GET {baseUrl}/v1/practitioners/999999907/profile
 ```
 
 Output:
 
 ```json
 {
-    "fid": "205147010",
+    "fid": "999999907",
     "identity": {
         "usmleId": "n/a",
-        "birthDate": "1950-01-23",
-        "birthCity": "Euless",
+        "birthDate": "1988-09-02",
+        "birthCity": "",
         "birthStateOrProvince": {
-            "code": "TX",
-            "description": "Texas",
-            "countryCode": "US",
-            "countryDescription": "United States"
+            "code": "",
+            "description": "",
+            "countryCode": "",
+            "countryDescription": "Unite"
         },
         "gender": "M"
     },
@@ -62,4 +64,4 @@ Output:
 }
 ```
 
-For language specific examples go to [samples](/Samples/)
+For more examples go to [samples](/Samples/).
