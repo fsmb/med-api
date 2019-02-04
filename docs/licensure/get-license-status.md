@@ -44,4 +44,4 @@ Output:
 }
 ```
 
-For more examples go to [samples](/samples/)
+For more examples go to [samples](/Samples/)
