@@ -23,9 +23,10 @@ GET {baseUrl}/v1/practitioners/{fid}/verification
 
 ### Scopes
 
-| Name | Description |
-| med.read | Grants the ability to read physician information. |
-| med.source_read | Grants the ability to read basic licensure and board order information. |
+| Scope | Description |
+| - | - |
+| med.read | Grants the ability to read basic physician information. |
+| med.source_read | Grants the ability to read a physician's profile. |
 
 ## Example
 
