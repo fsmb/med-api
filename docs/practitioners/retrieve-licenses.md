@@ -31,32 +31,28 @@ This request requires the OAuth scopes of `med.read` and `med.source_read` in or
 Input:
 
 ```HTTP
-GET {baseUrl}/v1/practitioners/205147010/verification
+GET {baseUrl}/v1/practitioners/999999949/verification
 ```
 
 Output:
  
 ```json
 { 
-  "fid": "205147010", 
+  "fid": "999999949", 
   "licenses": [ 
     { 
-      "issuerName": "Medical Board of California", 
-      "issuerShortName": "CALIFORNIA", 
-      "licenseNumber": "A-51871" 
+      "issuerName": "Texas Medical Board", 
+      "issuerShortName": "TEXAS", 
+      "licenseNumber": "TEST5544" 
     } 
   ], 
   "orders": [ 
     { 
-      "category": "Restriction of license or license privilege", 
+      "category": "Loss of license", 
       "actions": [ 
         { 
           "actionCode": "A0019", 
-          "actionDescription": "MEDICAL LICENSE PLACED ON PROBATION" 
-        }, 
-        { 
-          "actionCode": "A0035", 
-          "actionDescription": "MEDICAL PRACTICE TO BE MONITORED/SUPERVISED" 
+          "actionDescription": "SUMMARY/EMERGENCY/IMMEDIATE/TEMPORARY SUSPENSION OF MEDICAL LICENSE" 
         } 
       ] 
     }
