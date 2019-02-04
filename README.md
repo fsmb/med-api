@@ -1,6 +1,6 @@
 # MED API
 
-This is the source for technical information for the MED API. This API can be used to obtain basic physician validation and licensure information. 
+This is the source for technical information for the MED API. This API can be used to handle basic physician validation and obtain summary licensure information. 
 
 To learn more about FSMB APIs refer to the [Getting Started](https://github.com/fsmb/api-docs) guide. To learn more about this API and to begin using it in your code please contact [FSMB](mailto:pdc@fsmb.org).
 
