@@ -1,10 +1,12 @@
 # Licensure
 
-The licensure resource allows for operations regarding a medical professional's licenses
+##### URL: /v1/licensure
+##### API Version: 1.0
 
+The licensure resource provides access to basic licensure information.
 
 ## Operations
 
 | Operation | Description |
 | --------- | ----------- |
-| [Get License Status](getLicenseStatus.md) |Get the license status of a medical professional |
+| [Get License Status](get-license-status.md) |Get the license status of a medical professional |
