@@ -18,13 +18,14 @@ GET {baseUrl}/v1/practitioners/{fid}/verification
 | Name | Description     | Type  |
 | ---- | --------------- | ----- |
 | 200  | OK              | [PdcPractitioner](../types/pdcPractitioner.md)  |
-| 400  | Bad Request     |  |
-| 401  | Unauthorized    |  |
-| 500  | Server Error    |  |
 
-## Scope
+## Security
 
-This request requires the OAuth scopes of `med.read` and `med.source_read` in order to execute.
+### Scopes
+
+| Name | Description |
+| med.read | Grants the ability to read physician information. |
+| med.source_read | Grants the ability to read basic licensure and board order information. |
 
 ## Example
 
