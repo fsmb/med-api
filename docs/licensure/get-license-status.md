@@ -17,7 +17,7 @@ GET {baseUrl}/v1/licensure/{fid}/summary
 
 | Name | Description     | Type  |
 | ---- | --------------- | ----- |
-| 200  | OK              | [LicenseSummary](defition-licensesummary.md) |
+| 200  | OK              | [LicenseSummary](definition-licensesummary.md) |
 
 ## Security
 
