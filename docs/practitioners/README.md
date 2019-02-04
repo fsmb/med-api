@@ -1,6 +1,6 @@
 # Practitioners
 
-##### URL: /v1/Practitioners
+##### URL: /v1/practitioners
 ##### API Version: 1.0
 
 The practitioner resource allows the user to gather information about a medical professional. 
