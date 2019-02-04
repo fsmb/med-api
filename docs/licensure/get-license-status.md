@@ -22,9 +22,13 @@ GET {baseUrl}/v1/licensure/{fid}/summary
 | 401  | Unauthorized    |  |
 | 500  | Server Error    |  |
 
-## Scope
+## Security
 
-This request requires an OAuth scope of `med.read` in order to execute.
+### Scopes
+
+| Scope | Description |
+| - | - |
+| med.read | Grants the ability to read basic physician information. |
 
 ## Example
 
