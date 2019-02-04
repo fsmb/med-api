@@ -13,7 +13,6 @@ GET {baseUrl}/v1/licensure/{fid}/summary
 | `baseUrl` | path | True | string| The API url |
 | `fid` | path | True | string | The FID of the practitioner |
 
-
 ## Responses
 
 | Name | Description     | Type  |
@@ -32,15 +31,15 @@ This request requires an OAuth scope of `med.read` in order to execute.
 Input:
 
 ```HTTP
-GET {baseUrl}/v1/licensure/205147010/summary
+GET {baseUrl}/v1/licensure/999999949/summary
 ```
 
 Output:
 
 ```json
 {
-    "fid": "205147010",
-    "count": 2
+    "fid": "999999949",
+    "count": 1
 }
 ```
 
