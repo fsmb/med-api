@@ -6,7 +6,8 @@ To learn more about FSMB APIs refer to the [Getting Started](https://github.com/
 
 ## Change Log
 
-TBD
+| Version | Date | Release Notes |
+|   1 | | Initial version |
 
 ## Authentication
 
@@ -37,5 +38,5 @@ Use [retrieve board orders and licenses](docs/practitioners/retrieve-licenses.md
 
 ## Resources
 
-- [Practitioners](docs/practitioners/README.md)
-- [Licensure](docs/licensure/README.md)
+- [Licensure](docs/licensure/readme.md)
+- [Practitioners](docs/practitioners/readme.md)
