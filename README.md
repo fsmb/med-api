@@ -53,5 +53,5 @@ FID - Federation ID. A 9 digit number used to access information about a medical
 
 ## Resources
 
-- [Practitioners](docs/practitioners/README.md)
-- [Licensure](docs/licensure/README.md)
+- [Licensure](docs/licensure/readme.md)
+- [Practitioners](docs/practitioners/readme.md)
