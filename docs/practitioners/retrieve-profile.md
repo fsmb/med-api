@@ -10,8 +10,8 @@ GET {baseUrl}/v1/practitioners/{fid}/profile
 
 | Name | In | Required | Type | Description |
 | ---- | -- | -------- | ---- | ----------- |
-| `baseUrl` | path | True | string| The API url |
-| `fid` | path | True | string | The medical professional's FID |
+| `baseUrl` | path | True | string| The API URL. |
+| `fid` | path | True | string | The medical professional's FID. |
 
 ## Responses
 
