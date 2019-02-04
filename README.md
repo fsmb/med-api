@@ -29,11 +29,11 @@ The following URLs are used to access the MED API.
 
 ### Find a Physician
 
-TBD
+Use [find a physician](docs/practitioner/find-physician.md) to find a physician using their basic identity information.
 
 ### Get Licensure Information
 
-TBD
+Use [retrieve board orders and licenses](docs/practitioners/retrieve-licenses.md) to get basic licensure and board order information.
 
 ## Resources
 
