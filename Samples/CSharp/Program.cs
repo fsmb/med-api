@@ -15,10 +15,10 @@ namespace MedApiSample
             var licenseService = new LicensureService(_medClient, accessToken);
             var practitionerService = new PractitionerService(_medClient, accessToken);
 
-            var licenseCount = licenseService.GetLicenseStatusAsync("205147010", CancellationToken.None);
+            var licenseCount = licenseService.GetLicenseStatusAsync("999999923", CancellationToken.None);
             licenseCount.Wait();
 
-            Console.WriteLine("The results of GetLicenseStatusAsync using fid 205147010: {0}", licenseCount.Result.ToString());
+            Console.WriteLine("The results of GetLicenseStatusAsync using fid 999999923: {0}", licenseCount.Result.ToString());
             Console.WriteLine("Press any key to exit");
             Console.ReadKey();
 
