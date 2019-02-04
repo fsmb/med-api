@@ -29,8 +29,9 @@ GET {baseUrl}/v1/practitioners/search?name={name}&birthDate={date}&ssnlast4={ssn
 
 ### Scopes
 
-| Name | Description |
-| med.read | Grants the ability to read physician information.
+| Scope | Description |
+| - | - |
+| med.read | Grants the ability to read basic physician information. |
 
 ## Examples
 
