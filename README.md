@@ -1,55 +1,24 @@
 # MED API
 
+This is the source for technical information for the Federation of State Medical Boards' MED API. This API can be used to obtain basic physician validation and licensure information. 
 
-This is the source for technical information for the Federation of State Medical Boards' Federation Credentials Verification Service (MED) [REST API](https://en.wikipedia.org/wiki/Representational_state_transfer). 
-The MED API is one of the interfaces available for MED data retrieval by state medical boards (SMBs). 
+To learn more about FSMB APIs refer to the [Getting Started](https://github.com/fsmb/api-docs) guide. To learn more about this API and to begin using it in your code please contact [FSMB](mailto:pdc@fsmb.org).
 
-If you are interested in learning more about this API, using it in your application or accessing the [Postman]( https://www.getpostman.com/) collection,  please contact [FSMB](mailto:pdc@fsmb.org).
+## Authentication
 
+The following OAuth2 scopes are defined for this API.
 
-## Authentication 
+| Scope | Description |
+| - | - |
+| med.read | Provides read access to the API. |
+| med.source_read | Provides read access to basic physician information. |
 
-The Med API uses OAuth2 credentialing authentication.
+## API URLs
 
-A client id and client secret are necessary for authentication. 
-Contact FSMB for access to a client id and client secret. 
-Using the client id and client secret execute the authentication request. 
-You will receive an access token of type bearer in the response.
-All subsequent requests will require the token as an authorization header. 
+The following URLs are used to access the MED API.
 
-After a set period of time the token will expire, and it will be necessary to get another token.
-
-
-For more information regarding OAuth2 go to the website: https://oauth.net/2/
-
-
-## HTTP Status Codes
-
-These are codes you can receive in the response of a request
-
-| HTTP Status Code | Description     |
-| ---------------- | --------------- |
-| 200              | OK              |
-| 204              | No Content      |
-| 400              | Bad Request     |
-| 401              | Unauthorized    |
-| 403              | Forbidden       |
-| 500              | Server Error    |
-| 501              | Not Implemented |
-
-## HTTP Verbs
-
-| HTTP Verb | Does   |
-| --------- | ------ |
-| GET       | Read   |
-| POST      | Insert |
-| PUT       | Update/Replace |
-| PATCH     | Update/Modify |
-| DELETE    | Delete |
-
-## Definitions
-
-FID - Federation ID. A 9 digit number used to access information about a medical professional.
+- Demo: https://demo-services.fsmb.org/med/
+- Production: https://services.fsmb.org/med/
 
 ## Resources
 
