@@ -1,17 +1,20 @@
 # MED API
 
-###### Demo URL: https://demo-services.fsmb.org/med/
-###### Production URL: https://services.fsmb.org/med/
-
 This is the source for technical information for the MED API. This API can be used to handle basic physician validation and obtain summary licensure information. 
 
 To learn more about FSMB APIs refer to the [Getting Started](https://github.com/fsmb/api-docs) guide. To learn more about this API and to begin using it in your code please contact [FSMB](mailto:pdc@fsmb.org).
+
+- URL
+  - Demo: https://demo-services.fsmb.org/med/
+  - Production: https://services.fsmb.org/med/
+- [Postman Collection](https://www.getpostman.com/collections/9a0b2ee0820c9b39c286)
+- [OpenAPI Specification](https://demo-services.fsmb.org/med/_swagger/v1)
 
 ## Change Log
 
 | Version | Date | Release Notes |
 | - | - | -|
-|   1 | | Initial version |
+| 1 | | Initial version |
 
 ## Security
 
