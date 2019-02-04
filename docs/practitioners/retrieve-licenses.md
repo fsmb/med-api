@@ -17,7 +17,7 @@ GET {baseUrl}/v1/practitioners/{fid}/verification
 
 | Name | Description     | Type  |
 | ---- | --------------- | ----- |
-| 200  | OK              | [PdcPractitioner](../types/pdcPractitioner.md)  |
+| 200  | OK              | [PdcPractitioner](definition-pdcpractitioner.md)  |
 
 ## Security
 
