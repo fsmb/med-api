@@ -64,4 +64,4 @@ Output:
 }
 ```
 
-For language specific examples go to [samples](/Samples/)
+For more examples go to [samples](/Samples/).
