@@ -41,14 +41,14 @@ This is finding a medical professional by name, birth date and SSN.
 Input:
 
 ```HTTP
-GET {baseUrl}/v1/practitioners/search?name=Javier Martinez Torres&birthDate=01/23/1950&ssnlast4=1234
+GET {baseUrl}/v1/practitioners/search?name=Alexa Wood Checkey&birthDate=09/02/1988&ssnlast4=8888
 ```
 
 Output:
  
 ```json
 { 
-  "fid": "205147010" 
+  "fid": "999999907" 
 } 
 ```
 
@@ -58,14 +58,14 @@ This is finding a medical professional by name, birth date and License.
 Input:
 
 ```HTTP
-GET {baseUrl}/v1/practitioners/search?name=Javier Martinez Torres&birthDate=01/23/1950&licenseNumber=A-51871
+GET {baseUrl}/v1/practitioners/search?name=Alexa Wood Checkey&birthDate=09/02/1988&licenseNumber=TEST12345
 ```
 
 Output:
  
 ```json
 { 
-  "fid": "205147010" 
+  "fid": "999999907" 
 } 
 ```
 
