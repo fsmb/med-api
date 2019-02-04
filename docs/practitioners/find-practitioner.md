@@ -24,16 +24,15 @@ GET {baseUrl}/v1/practitioners/search?name={name}&birthDate={date}&ssnlast4={ssn
 | Name | Description     | Type  |
 | ---- | --------------- | ----- |
 | 200  | OK              | [MedicalProfessionalIdentity](../types/medicalProfessionalIdentity.md)  |
-| 400  | Bad Request     |  |
-| 401  | Unauthorized    |  |
-| 500  | Server Error    |  |
 
-## Scope
+## Security
 
-This request requires an OAuth scope of `med.read` in order to execute.
+### Scopes
+
+| Name | Description |
+| med.read | Grants the ability to read physician information.
 
 ## Examples
-
 
 ### Find by Name, Birth Date and SSN
 This is finding a medical professional by name, birth date and SSN. 
