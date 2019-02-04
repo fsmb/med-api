@@ -14,8 +14,9 @@ The following OAuth2 scopes are defined for this API.
 
 | Scope | Description |
 | - | - |
-| med.read | Provides read access to the API. |
-| med.source_read | Provides read access to basic physician information. |
+| med.read | Grants the ability to read basic physician information. |
+| med.cdc_read | Grants the ability to read basic board order and licensure information. |
+| med.source_read | Grants the ability to read a physician's profile. |
 
 ## API URLs
 
