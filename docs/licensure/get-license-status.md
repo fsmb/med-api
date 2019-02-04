@@ -43,5 +43,3 @@ Output:
     "count": 1
 }
 ```
-
-For language specific examples go to [samples](/Samples/)
