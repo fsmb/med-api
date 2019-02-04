@@ -15,7 +15,7 @@ Provides information about a medical professional related to board orders
 | Name | Type | Description |
 | - | - | - |
 | category  | string | The type of board order issued. |
-| actions | [CodedDescription[]](codedDescription.md) | A collection of actions taken against a medical professional. |
+| actions | [CodedDescription[]](codeddescription.md) | A collection of actions taken against a medical professional. |
 
 ## License
 
