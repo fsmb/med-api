@@ -19,6 +19,10 @@ GET {baseUrl}/v1/practitioners/{fid}/profile
 | ---- | --------------- | ----- |
 | 200  | OK              | [Profile](../types/profile.md) |
 
+## Security
+
+### Scopes
+
 | Scope | Description |
 | - | - |
 | med.read | Grants the ability to read basic physician information. |
