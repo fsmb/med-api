@@ -18,13 +18,11 @@ GET {baseUrl}/v1/practitioners/{fid}/profile
 | Name | Description     | Type  |
 | ---- | --------------- | ----- |
 | 200  | OK              | [Profile](../types/profile.md) |
-| 400  | Bad Request     |  |
-| 401  | Unauthorized    |  |
-| 500  | Server Error    |  |
 
-## Scope
-
-This request requires the OAuth scopes of `med.read` and `med.cdc_read` in order to execute.
+| Scope | Description |
+| - | - |
+| med.read | Grants the ability to read basic physician information. |
+| med.cdc_read | Grants the ability to read basic board order and licensure information. |
 
 ## Example
 
