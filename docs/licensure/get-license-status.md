@@ -18,9 +18,6 @@ GET {baseUrl}/v1/licensure/{fid}/summary
 | Name | Description     | Type  |
 | ---- | --------------- | ----- |
 | 200  | OK              | [LicenseSummary](../types/licenseSummary.md) |
-| 400  | Bad Request     |  |
-| 401  | Unauthorized    |  |
-| 500  | Server Error    |  |
 
 ## Security
 
