@@ -1,6 +1,6 @@
-# Retrieve Board Orders and Licenses
+# Get Board Orders and Licenses
 
-Retrieves board orders and licenses associated with a FID
+Get board orders and licenses associated with a FID
 
 ```HTTP 
 GET {baseUrl}/v1/practitioners/{fid}/verification
