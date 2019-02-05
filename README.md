@@ -27,17 +27,9 @@ To learn more about FSMB APIs refer to the [Getting Started](https://github.com/
 | med.cdc_read | Grants the ability to read basic board order and licensure information. |
 | med.source_read | Grants the ability to read a physician's profile. |
 
-## Common Tasks
-
-### Find a Physician
-
-Use [find a physician](docs/practitioner/find-physician.md) to find a physician using their basic identity information.
-
-### Get Licensure Information
-
-Use [retrieve board orders and licenses](docs/practitioners/retrieve-licenses.md) to get basic licensure and board order information.
-
 ## Resources
+
+Refer to the section on [test data](test-data.md) for information about test data that can be used in the Demo environment.
 
 - [Licensure](docs/licensure/readme.md)
 - [Practitioners](docs/practitioners/readme.md)
