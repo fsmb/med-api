@@ -1,4 +1,4 @@
-# PdcPractitioner
+# BoardOrderDetail
 
 Provides information about a medical professional related to board orders and licensure
 
@@ -6,7 +6,7 @@ Provides information about a medical professional related to board orders and li
 | - | - | - |
 | fid  | string | FID of the medical professional. |
 | orders | [BoardOrder[]](#boardOrder) |  A collection of the professional's board orders. |
-| licenses | [License[]](#license) | A collection of the professional's licenses. |
+| licenses | [BoardOrderLicense[]](#boardorderlicense) | A collection of the professional's licenses. |
 
 ## BoardOrder
 
@@ -26,7 +26,7 @@ Board order action information.
 | actionCode  | string | The code. |
 | actionDescription | string | The user-friendly description of the code. |
 
-## License
+## BoardOrderLicense
 
 Provides information about a medical professional related to licensure
 

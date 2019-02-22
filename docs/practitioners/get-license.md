@@ -17,7 +17,7 @@ GET {baseUrl}/v1/practitioners/{fid}/verification
 
 | Name | Description     | Type  |
 | ---- | --------------- | ----- |
-| 200  | OK              | [PdcPractitioner](definition-pdcpractitioner.md)  |
+| 200  | OK              | [BoardOrderDetail](definition-boardorderdetail.md)  |
 
 ## Security
 
@@ -27,6 +27,20 @@ GET {baseUrl}/v1/practitioners/{fid}/verification
 | - | - |
 | med.read | Grants the ability to read basic physician information. |
 | med.source_read | Grants the ability to read a physician's profile. |
+
+## Test Data
+
+The following FIDs have been set up to return pre-defined data for this endpoint.
+
+| FID | Response |
+| - | - |
+| 999999907 | License but no board orders. |
+| 999999915 | Multiple licenses and board orders. |
+| 999999923 | License but no board orders. |
+| 999999931 | License but no board orders. |
+| 999999949 | License and board order. |
+| 999999956 | License but no board orders. |
+| * | No data |
 
 ## Example
 
