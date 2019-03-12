@@ -7,7 +7,7 @@ To learn more about FSMB APIs refer to the [Getting Started](https://github.com/
 - URL
   - Demo: https://demo-services.fsmb.org/med/
   - Production: https://services.fsmb.org/med/
-- [Postman Collection](https://www.getpostman.com/collections/9a0b2ee0820c9b39c286)
+- [Postman Collection](https://www.getpostman.com/collections/6e516f589dd5706a821d)
 - [OpenAPI Specification](https://demo-services.fsmb.org/med/_swagger/v1)
 
 ## Change Log
@@ -16,6 +16,7 @@ To learn more about FSMB APIs refer to the [Getting Started](https://github.com/
 | - | - | -|
 | 1.0 | 9/22/2016 | Initial version |
 | 1.1 | 1/25/2017 | |
+| 1.2 | 3/13/2019 | Retrieve a physician's PDC profile. |
 
 ## Security
 
@@ -24,8 +25,9 @@ To learn more about FSMB APIs refer to the [Getting Started](https://github.com/
 | Scope | Description |
 | - | - |
 | med.read | Grants the ability to read basic physician information. |
-| med.cdc_read | Grants the ability to read basic board order and licensure information. |
-| med.source_read | Grants the ability to read a physician's profile. |
+| med.source_read | Grants the ability to read basic board order and licensure information. |
+| med.cdc_read | Grants the ability to read a physician's profile. |
+| med.pdc_read | Grants the ability to read a physician's PDC profile. |
 
 ## Resources
 

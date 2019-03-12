@@ -17,7 +17,7 @@ GET {baseUrl}/v1/practitioners/{fid}/profile
 
 | Name | Description     | Type  |
 | ---- | --------------- | ----- |
-| 200  | OK              | [Profile](../types/profile.md) |
+| 200  | OK              | [Profile](definition-profile.md) |
 
 ## Security
 
@@ -26,7 +26,7 @@ GET {baseUrl}/v1/practitioners/{fid}/profile
 | Scope | Description |
 | - | - |
 | med.read | Grants the ability to read basic physician information. |
-| med.cdc_read | Grants the ability to read basic board order and licensure information. |
+| med.cdc_read | Grants the ability to read a physician's profile. |
 
 ## Example
 
