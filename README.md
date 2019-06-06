@@ -14,10 +14,10 @@ To learn more about FSMB APIs refer to the [Getting Started](https://github.com/
 
 | Version | Date | Release Notes |
 | - | - | -|
-| 1.0 | 9/22/2016 | Initial version |
-| 1.1 | 1/25/2017 | |
-| 1.2 | 3/13/2019 | Retrieve a physician's PDC profile. |
 | 2.0 |  | Updated search endpoint | 
+| 1.2 | 3/13/2019 | Retrieve a physician's PDC profile. |
+| 1.1 | 1/25/2017 | |
+| 1.0 | 9/22/2016 | Initial version |
 
 ## Security
 
