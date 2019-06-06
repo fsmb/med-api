@@ -3,7 +3,7 @@
 Get board orders and licenses associated with a FID
 
 ```HTTP 
-GET {baseUrl}/v1/practitioners/{fid}/verification
+GET {baseUrl}/v2/practitioners/{fid}/verification
 ```
 
 ## URI Parameters

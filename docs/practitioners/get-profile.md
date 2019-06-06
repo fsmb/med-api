@@ -3,7 +3,7 @@
 Get a medical professional's profile information with their associated FID
 
 ```HTTP 
-GET {baseUrl}/v1/practitioners/{fid}/profile
+GET {baseUrl}/v2/practitioners/{fid}/profile
 ```
 
 ## URI Parameters

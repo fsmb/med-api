@@ -3,7 +3,7 @@
 Get a medical professional's PDC profile information with their associated FID
 
 ```HTTP 
-GET {baseUrl}/v1/practitioners/{fid}/pdcprofile
+GET {baseUrl}/v2/practitioners/{fid}/pdcprofile
 ```
 
 ## URI Parameters

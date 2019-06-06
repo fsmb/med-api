@@ -3,7 +3,7 @@
 Retrieves the number of licenses associated with a medical professional
  
 ```HTTP 
-GET {baseUrl}/v1/licensure/{fid}/summary
+GET {baseUrl}/v2/licensure/{fid}/summary
 ```
 
 ## URI Parameters
