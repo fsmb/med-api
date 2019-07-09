@@ -4,16 +4,16 @@
 
 Provides profile information about a medical professional
 
-| Name | Type | Description |
-| - | - | - |
-| fid  | string | Required. The medical professional's FID. |
-| npi  | string | The medical professional's NPI number. |
-| gender  | string | The medical professional's gender. |
-| medicalEducation  | [MedicalEducationTraining](#medicaleducationtraining) | The medical professional's medical education. |
-| names  | [PhysicianNames](#physiciannames) | The medical professional's names. |
-| addresses  | [PhysicianAddresses](#physicianaddresses) | The medical professional's addresses. |
-| licensure  | [Licensure](#licensure) | The medical professional's licensure information. |
-| boardOrders  | [BoardOrders](#boardorders) | The medical professional's board order information. |
+| Name | Type | Field Length | Description |
+| - | - | - | - |
+| fid  | string | 9 | Required. The medical professional's FID. |
+| npi  | string | 10 | The medical professional's NPI number. |
+| gender  | string | 1 | The medical professional's gender. |
+| medicalEducation  | [MedicalEducationTraining](#medicaleducationtraining) |  | The medical professional's medical education. |
+| names  | [PhysicianNames](#physiciannames) |  | The medical professional's names. |
+| addresses  | [PhysicianAddresses](#physicianaddresses) |  | The medical professional's addresses. |
+| licensure  | [Licensure](#licensure) |  | The medical professional's licensure information. |
+| boardOrders  | [BoardOrders](#boardorders) |  | The medical professional's board order information. |
 
 ## MedicalEducationTraining
 
@@ -37,29 +37,29 @@ Provides medical education information
 
 Provides the medical school information
 
-| Name | Type | Description |
-| - | - | - |
-| name  | string | Required. School name. |
-| cibisCode | string | Required. School CIBIS code. |
-| type | [SchoolType](#schooltype) | Required. School type | 
+| Name | Type | Field Length | Description |
+| - | - | - | - | 
+| name  | string | 80 | Required. School name. |
+| cibisCode | string | 6 | Required. School CIBIS code. |
+| type | [SchoolType](#schooltype) |  | Required. School type | 
 
 ## SchoolType
 
 Provides the medical school type
 
-| Name | Type | Description |
-| - | - | - |
-| type  | string | Required. School type. |
-| description | string | Required. School type description. |
+| Name | Type | Field Length | Description |
+| - | - | - | - |
+| type  | string | 5 | Required. School type. |
+| description | string | 80 | Required. School type description. |
 
 ## Degree
 
 Provides the medical degree
 
-| Name | Type | Description |
-| - | - | - |
-| code  | string | Required. Degree code. |
-| description | string | Required. Degree description. |
+| Name | Type | Field Length | Description |
+| - | - | - | - | 
+| code  | string | 5 | Required. Degree code. |
+| description | string | 80 | Required. Degree description. |
 
 ## PhysicianNames
 
@@ -73,12 +73,12 @@ Provides the medical professional's names
 
 Provides name
 
-| Name | Type | Description |
-| - | - | - |
-| firstName  | string | Required. First name. |
-| middleName  | string | Middle name. |
-| lastName  | string | Required. Last name. |
-| suffix  | string | suffix name. |
+| Name | Type | Field Length | Description |
+| - | - | - | - |
+| firstName  | string | 50 | Required. First name. |
+| middleName  | string | 50 | Middle name. |
+| lastName  | string | 50 | Required. Last name. |
+| suffix  | string | 4 | Suffix name. |
 
 ## PhysicianAddresses
 
@@ -92,19 +92,19 @@ Provides the medical professional's addresses
 
 Provides address
 
-| Name | Type | Description |
-| - | - | - |
-| city  | string | Required. City. |
-| stateOrProvince  | [StateOrProvince](#stateorprovince) | Required. State. |
+| Name | Type | Field Length |Description |
+| - | - | - | - |
+| city  | string | 40 | Required. City. |
+| stateOrProvince  | [StateOrProvince](#stateorprovince) |  | Required. State. |
 
 ## StateOrProvince
 
 Represents a state or province
 
-| Name | Type | Description |
-| - | - | - |
-| code  | string | Required. The state or province code. |
-| description | string | Required. The name of the state or province. |
+| Name | Type | Field Length | Description |
+| - | - | - | - |
+| code  | string | 3 | Required. The state or province code. |
+| description | string | 80 | Required. The name of the state or province. |
 
 ## Licensure
 
@@ -117,24 +117,24 @@ Provides the medical professional's licensure information
 
 Provides license information
 
-| Name | Type | Description |
-| - | - | - |
-| licensingEntity  | [ReportingEntity](#reportingentity) | Required. The entity who issued the license. |
-| stateOrProvince  | [StateOrProvince](#stateorprovince) | Required. The state where the entity is located. |
-| licenseNumber  | string | Required. The license number. |
-| statusCode  | string | Status code. |
-| statusDescription  | string | Status description. |
-| issueDate  | string (date) | The date the license was issued. |
-| expireDate  | string (date) | The date the license expires. |
-| reportDate  | string (date) | The date the license was reported to FSMB. |
+| Name | Type | Field Length | Description |
+| - | - | - | - | 
+| licensingEntity  | [ReportingEntity](#reportingentity) |  | Required. The entity who issued the license. |
+| stateOrProvince  | [StateOrProvince](#stateorprovince) |  | Required. The state where the entity is located. |
+| licenseNumber  | string | 16 | Required. The license number. |
+| statusCode  | string | 5 | Status code. |
+| statusDescription  | string | 80 | Status description. |
+| issueDate  | string (date) |  | The date the license was issued. |
+| expireDate  | string (date) |  | The date the license expires. |
+| reportDate  | string (date) |  | The date the license was reported to FSMB. |
 
 ## ReportingEntity
 
 Represents a reporting entity
 
-| Name | Type | Description |
-| - | - | - |
-| description | string | Required. The name of the reporting entity. |
+| Name | Type | Field Length | Description |
+| - | - | - | - |
+| description | string | 80 | Required. The name of the reporting entity. |
 
 ## BoardOrders
 
@@ -164,35 +164,35 @@ Provides board order information
 
 Provides board order action information
 
-| Name | Type | Description |
-| - | - | - |
-| actionCode  | string | Required. The action code. |
-| actionCodeDescription  | string | Required. The description of the action taken. |
-| category  | string | Required. The type of action taken. |
-| effectiveDate  | string (date) | The date the action took effect. |
-| expirateDate  | string (date) | The date the action expires. |
-| termDays  | int | The number of days the action is for. |
-| termMonths  | int | The number of months the action is for. |
-| termYears  | int | The number of years the action is for. |
-| isIndefinite  | boolean | Indicates whether the action taken is indfinite. |
-| note  | string | Note about the action. |
-| actionStayedCode  | string | Action stayed code. |
-| actionStayedDescription  | string | Action stayed description. |
+| Name | Type | Field Length | Description |
+| - | - | - | - |
+| actionCode  | string | 5 | Required. The action code. |
+| actionCodeDescription  | string | 100 | Required. The description of the action taken. |
+| category  | string | 80 | Required. The type of action taken. |
+| effectiveDate  | string (date) |  | The date the action took effect. |
+| expirateDate  | string (date) |  | The date the action expires. |
+| termDays  | int |  | The number of days the action is for. |
+| termMonths  | int |  | The number of months the action is for. |
+| termYears  | int |  | The number of years the action is for. |
+| isIndefinite  | boolean |  | Indicates whether the action taken is indfinite. |
+| note  | string | 1000 | Note about the action. |
+| actionStayedCode  | string | 5 | Action stayed code. |
+| actionStayedDescription  | string | 80 | Action stayed description. |
 
 ## BoardOrderBasis
 
 Provides board order basis information
 
-| Name | Type | Description |
-| - | - | - |
-| code  | string | Required. The basis code. |
-| description  | string | Required. The basis description. |
+| Name | Type | Field Length | Description |
+| - | - | - | - |
+| code  | string | 5 | Required. The basis code. |
+| description  | string | 100 | Required. The basis description. |
 
 ## BoardOrderCategory
 
 Provides board order category information
 
-| Name | Type | Description |
-| - | - | - |
-| code  | string | Required. The category code. |
-| description  | string | Required. The category description. |
+| Name | Type | Field Length | Description |
+| - | - | - | - |
+| code  | string | 5 | Required. The category code. |
+| description  | string | 80 | Required. The category description. |
