@@ -47,33 +47,33 @@ The following FIDs have been set up to return pre-defined data for this endpoint
 Input:
 
 ```HTTP
-GET {baseUrl}/v1/practitioners/999999949/verification
+GET {{baseUrl}}/v2/practitioners/999999949/verification
 ```
 
 Output:
  
 ```json
-{ 
-  "fid": "999999949", 
-  "licenses": [ 
-    { 
-      "issuerName": "Texas Medical Board", 
-      "issuerShortName": "TEXAS", 
-      "licenseNumber": "TEST5544" 
-    } 
-  ], 
-  "orders": [ 
-    { 
-      "category": "Loss of license", 
-      "actions": [ 
-        { 
-          "actionCode": "A0019", 
-          "actionDescription": "SUMMARY/EMERGENCY/IMMEDIATE/TEMPORARY SUSPENSION OF MEDICAL LICENSE" 
-        } 
-      ] 
-    }
-  ] 
-} 
+{
+    "fid": "999999949",
+    "licenses": [
+        {
+            "issuerName": "Texas Medical Board",
+            "issuerShortName": "TEXAS",
+            "licenseNumber": "TEST5544"
+        }
+    ],
+    "orders": [
+        {
+            "category": "Loss of license",
+            "actions": [
+                {
+                    "actionCode": "A0013",
+                    "actionDescription": "SUMMARY/EMERGENCY/IMMEDIATE/TEMPORARY SUSPENSION OF MEDICAL LICENSE"
+                }
+            ]
+        }
+    ]
+}
 ```
 
 For more examples go to [samples](/Samples/).
