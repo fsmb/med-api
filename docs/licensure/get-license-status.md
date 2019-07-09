@@ -32,7 +32,7 @@ GET {baseUrl}/v2/licensure/{fid}/summary
 Input:
 
 ```HTTP
-GET {baseUrl}/v1/licensure/999999949/summary
+GET {baseUrl}/v2/licensure/999999949/summary
 ```
 
 Output:
