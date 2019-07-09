@@ -33,7 +33,7 @@ GET {baseUrl}/v2/practitioners/{fid}/pdcprofile
 Input:
 
 ```HTTP
-GET {baseUrl}/v1/practitioners/999999915/pdcprofile
+GET {{baseUrl}}/v2/practitioners/999999915/pdcprofile
 ```
 
 Output:
