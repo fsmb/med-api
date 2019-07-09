@@ -54,3 +54,15 @@ Output:
 } 
 ```
 
+Input: 
+```HTTP
+GET {{baseUrl}}/v2/practitioners/search?firstName=Jess&middleName=Chis&lastName=Samphone&deaNumber=IS6789018
+```
+
+Output: 
+
+```json
+{
+    "fid": "999999956"
+}
+```
