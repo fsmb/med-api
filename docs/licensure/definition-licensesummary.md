@@ -2,7 +2,7 @@
 
 License summary information for a medical professional.
 
-| Name | Type   | Description |
-| - | - | - |
-| fid  | string | FID of the medical professional. |
-| count | integer | The number of licenses. |
+| Name | Type | Field Length | Description |
+| - | - | - | - |
+| fid  | string | 9 | FID of the medical professional. |
+| count | integer | - | The number of licenses. |
