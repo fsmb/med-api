@@ -72,10 +72,10 @@ Provides the address information of a medical professional
 
 Acts as a wrapper around a code and user-friendly description of the code
 
-| Name | Type | Description |
-| - | - | - |
-| code  | string | The code. |
-| description | string | The user-friendly description of the code. |
+| Name | Type | Field Length | Description |
+| - | - | - | - | 
+| code  | string | 5 | The code. |
+| description | string | 80 |  The user-friendly description of the code. |
 
 ## ECFMG
 
