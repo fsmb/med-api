@@ -109,6 +109,7 @@ Represents a state or province
 ## Licensure
 
 Provides the medical professional's licensure information
+
 | Name | Type | Description |
 | - | - | - |
 | licenses  | [License[]](#license) | A collection of the medical professional's licenses. |
