@@ -11,7 +11,7 @@ GET {baseUrl}/v2/practitioners/{fid}/verification
 | Name | In | Required | Type | Description |
 | ---- | -- | -------- | ---- | ----------- |
 | baseUrl | path | True | string| The API URL. |
-| fid | path | True | string | The practitioner's FID/ |
+| fid | path | True | string | The practitioner's FID |
 
 ## Responses
 
