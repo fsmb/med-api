@@ -86,6 +86,7 @@ Provides NPI number information
 | deactivatedDate | string( date) |  | The date the NPI was deactivated |
 | reactivatedDate | string (date) |  | The date the NPI was reactivated |
 | reportedDate | string (date) |  | The date the NPI was reported to FSMB |
+| enumerationDate | string (date) | | The date the NPI was issued to the physician |
 
 ## PhysicianNames
 
