@@ -5,10 +5,10 @@ This is the source for technical information for the MED API. This API can be us
 To learn more about FSMB APIs refer to the [Getting Started](https://github.com/fsmb/api-docs) guide. To learn more about this API and to begin using it in your code please contact [FSMB](mailto:pdc@fsmb.org).
 
 - URL
-  - Demo: https://services-med-qa.fsmb.org
-  - Production: https://services-med.fsmb.org
+  - Demo: https://demo-services.fsmb.org/med/
+  - Production: https://services.fsmb.org/med/
 - [Postman Collection](https://www.getpostman.com/collections/2017e45ba7c7fe1def97)
-- [OpenAPI Specification](https://services-med-qa.fsmb.org/_swagger/v1)
+- [OpenAPI Specification](https://demo-services.fsmb.org/med/_swagger/v1)
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/2017e45ba7c7fe1def97)
 ## Change Log
