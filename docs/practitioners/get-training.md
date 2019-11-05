@@ -18,6 +18,7 @@ GET {baseUrl}/v2/practitioners/{fid}/training
 | Name | Description     | Type  |
 | ---- | --------------- | ----- |
 | 200  | OK              | [Training](definition-training.md) |
+| 204 | No Content | |
 
 ## Security
 

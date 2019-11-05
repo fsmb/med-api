@@ -31,7 +31,7 @@ To learn more about FSMB APIs refer to the [Getting Started](https://github.com/
 | med.source_read | Grants the ability to read basic board order and licensure information. |
 | med.cdc_read | Grants the ability to read a physician's profile. |
 | med.pdc_read | Grants the ability to read a physician's PDC profile. |
-| med.thirdparty_read | Grants the ability to read a physician's training information. |
+| med.bio_read | Grants the ability to read a physician's verified information. |
 
 ## Resources
 
