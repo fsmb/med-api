@@ -26,7 +26,7 @@ GET {baseUrl}/v2/practitioners/{fid}/training
 | Scope | Description |
 | - | - |
 | med.read | Grants the ability to read basic physician information. |
-| med.thirdparty_read | Grants the ability to read a physician's training information. |
+| med.bio_read | Grants the ability to read a physician's verified information. |
 
 ## Example
 
