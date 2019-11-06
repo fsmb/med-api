@@ -35,7 +35,5 @@ To learn more about FSMB APIs refer to the [Getting Started](https://github.com/
 
 ## Resources
 
-Refer to the section on [test data](docs/test-data.md) for information about test data that can be used in the Demo environment.
-
 - [Licensure](docs/licensure/README.md)
 - [Practitioners](docs/practitioners/README.md)
