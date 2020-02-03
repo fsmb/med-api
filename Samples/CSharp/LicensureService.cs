@@ -16,7 +16,7 @@ namespace MedApiSample
 
         public async Task<LicenseSummary> GetLicenseStatusAsync(string fid, CancellationToken cancellationToken)
         {
-            var request = new HttpRequestMessage(HttpMethod.Get, _client.BaseAddress + $"/v1/licensure/{fid}/summary");
+            var request = new HttpRequestMessage(HttpMethod.Get, _client.BaseAddress + $"/v2/licensure/{fid}/summary");
             AddAuthenticationToken(request);
 
             using (var response = await _client.SendAsync(request, cancellationToken))
