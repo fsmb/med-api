@@ -17,7 +17,7 @@ namespace MedApiSample
 
         public async Task<MedicalProfessionalIdentity> FindPractitionerSSNAsync(string name, string date, string ssn, CancellationToken cancellationToken)
         {
-            var request = new HttpRequestMessage(HttpMethod.Get, _client.BaseAddress + $"/v1/practitioners/search?name={name}&birthDate={date}&ssnlast4={ssn}");
+            var request = new HttpRequestMessage(HttpMethod.Get, _client.BaseAddress + $"/v2/practitioners/search?name={name}&birthDate={date}&ssnlast4={ssn}");
             AddAuthenticationToken(request);
 
             using (var response = await _client.SendAsync(request, cancellationToken))
@@ -31,7 +31,7 @@ namespace MedApiSample
 
         public async Task<MedicalProfessionalIdentity> FindPractitionerLicenseAsync(string name, string date, string license, CancellationToken cancellationToken)
         {
-            var request = new HttpRequestMessage(HttpMethod.Get, _client.BaseAddress + $"/v1/practitioners/search?name={name}&birthDate={date}&licenseNumber={license}");
+            var request = new HttpRequestMessage(HttpMethod.Get, _client.BaseAddress + $"/v2/practitioners/search?name={name}&birthDate={date}&licenseNumber={license}");
             AddAuthenticationToken(request);
 
             using (var response = await _client.SendAsync(request, cancellationToken))
@@ -45,7 +45,7 @@ namespace MedApiSample
 
         public async Task<Dictionary<string, string>> RetrieveProfileAsync(string fid, CancellationToken cancellationToken)
         {
-            var request = new HttpRequestMessage(HttpMethod.Get, _client.BaseAddress + $"/v1/practitioners/{fid}/profile");
+            var request = new HttpRequestMessage(HttpMethod.Get, _client.BaseAddress + $"/v2/practitioners/{fid}/profile");
             AddAuthenticationToken(request);
 
             using (var response = await _client.SendAsync(request, cancellationToken))
@@ -59,7 +59,7 @@ namespace MedApiSample
 
         public async Task<PdcPractitioner> RetrieveBOandLAsync(string fid, CancellationToken cancellationToken)
         {
-            var request = new HttpRequestMessage(HttpMethod.Get, _client.BaseAddress + $"/v1/practitioners/{fid}/verification");
+            var request = new HttpRequestMessage(HttpMethod.Get, _client.BaseAddress + $"/v2/practitioners/{fid}/verification");
             AddAuthenticationToken(request);
 
             using (var response = await _client.SendAsync(request, cancellationToken))

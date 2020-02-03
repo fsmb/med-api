@@ -1,6 +1,6 @@
 # Licensure
 
-##### URL: /v1/licensure
+##### URL: /v2/licensure
 ##### API Version: 2.0
 
 The licensure resource provides access to basic licensure information.
