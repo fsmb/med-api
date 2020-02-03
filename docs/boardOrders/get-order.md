@@ -3,7 +3,7 @@
 Get a medical professional's board order with their associated fid and the board order ID.
 
 ```HTTP
-GET {baseUrl}/v2/physicianOrders/{fid}/{orderId}
+GET {baseUrl}/v2/boardOrders/{fid}/public/{orderId}
 ```
 
 ## URI Parameters
