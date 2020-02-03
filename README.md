@@ -15,6 +15,7 @@ To learn more about FSMB APIs refer to the [Getting Started](https://github.com/
 
 | Version | Date | Release Notes |
 | - | - | -|
+| 2.3 | 2/19/2019 | Added new board orders resource. | 
 | 2.2 | 12/17/2019 | Updated Urls. |
 | 2.1 | 11/13/2019 | Added training endpoint to Practitioner resource. |
 | 2.0 | 6/6/2019 | Updated search endpoint. | 
@@ -33,8 +34,9 @@ To learn more about FSMB APIs refer to the [Getting Started](https://github.com/
 | med.cdc_read | Grants the ability to read a physician's profile. |
 | med.pdc_read | Grants the ability to read a physician's PDC profile. |
 | med.bio_read | Grants the ability to read a physician's verified information. |
-
+| med.order_read | Grants the ability to read a physician's public board order information. |
 ## Resources
 
 - [Licensure](docs/licensure/README.md)
 - [Practitioners](docs/practitioners/README.md)
+- [BoardOrders](docs/boardOrders/README.md)
