@@ -15,7 +15,7 @@ To learn more about FSMB APIs refer to the [Getting Started](https://github.com/
 
 | Version | Date | Release Notes |
 | - | - | -|
-| 2.3 | 2/19/2019 | Added new BoardOrders resource. | 
+| 2.3 | 2/19/2020 | Added new BoardOrders resource. | 
 | 2.2 | 12/17/2019 | Updated Urls. |
 | 2.1 | 11/13/2019 | Added training endpoint to Practitioner resource. |
 | 2.0 | 6/6/2019 | Updated search endpoint. | 
