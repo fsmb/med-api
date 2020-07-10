@@ -19,7 +19,7 @@ GET {baseUrl}/v2/practitioners/search?firstName={firstname}&lastName={lastname}&
 | deaNumber | query | * | string | The medical professional's DEA number. |
 | licenseNumber | query | * | string| The medical professional's license number. |
 
-<sub>*At least one of the medical professinoal's identifying numbers is required to search. (npi,licenseNumber,deaNumber)</sub>
+<sub>*At least one of the medical professional's identifying numbers is required to search. (npi,licenseNumber,deaNumber)</sub>
 
 ## Responses
 
