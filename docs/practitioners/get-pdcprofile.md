@@ -27,6 +27,7 @@ GET {baseUrl}/v2/practitioners/{fid}/pdcprofile
 | - | - |
 | med.read | Grants the ability to read basic physician information. |
 | med.pdc_read | Grants the ability to read a physician's pdc profile. |
+| med.pdc_read.abms | Includes ABMS certifications with a physician's PDC profile. |
 
 ## Example
 
@@ -272,7 +273,23 @@ Output:
                 ]
             }
         ]
-    }
+    },
+    "abmsCertifications": [
+        {
+            "displayCertificationId": 123456789,
+            "memberBoardShortDescription": "ABIM",
+            "memberBoardDescription": "Internal Medicine",
+            "certificationTypeDescription": "Cardiovascular Disease",
+            "certificateType": "S"
+        },
+        {
+            "displayCertificationId": 123456789,
+            "memberBoardShortDescription": "ABIM",
+            "memberBoardDescription": "Internal Medicine",
+            "certificationTypeDescription": "Internal Medicine",
+            "certificateType": "G"
+        }
+    ]
 }
 ```
 
