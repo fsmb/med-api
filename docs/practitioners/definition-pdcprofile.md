@@ -16,7 +16,7 @@ Provides profile information about a medical professional
 | npiNumbers | [NPI[]](#npi) | | A collection of the  medical professional's NPI numbers | 
 | licensure  | [Licensure](#licensure) |  | The medical professional's licensure information. |
 | boardOrders  | [BoardOrders](#boardorders) |  | The medical professional's board order information. |
-| abmsCertifications  | [ABMSBoard[]](#ABMSBoard) |  | The medical professional's ABMS board with certificate information. |
+| abmsCertifications  | [ABMSBoard[]](#ABMSBoard) |  | The medical professional's ABMS certifications. |
 
 ## MedicalEducationTraining
 
