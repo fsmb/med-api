@@ -276,18 +276,18 @@ Output:
     },
     "abmsCertifications": [
         {
-            "displayCertificationId": 123456789,
-            "memberBoardShortDescription": "ABIM",
-            "memberBoardDescription": "Internal Medicine",
-            "certificationTypeDescription": "Cardiovascular Disease",
-            "certificateType": "S"
-        },
-        {
-            "displayCertificationId": 123456789,
-            "memberBoardShortDescription": "ABIM",
-            "memberBoardDescription": "Internal Medicine",
-            "certificationTypeDescription": "Internal Medicine",
-            "certificateType": "G"
+            "memberBoardName": "American Board of Internal Medicine",
+            "memberBoardShortName": "ABIM",
+            "certificates": [
+                {
+                    "certificate": "Cardiovascular Disease",
+                    "certificateType": "Subspecialty"
+                },
+                {
+                    "certificate": "Internal Medicine",
+                    "certificateType": "General"
+                }
+            ]
         }
     ]
 }
