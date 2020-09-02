@@ -16,6 +16,7 @@ Provides profile information about a medical professional
 | npiNumbers | [NPI[]](#npi) | | A collection of the  medical professional's NPI numbers | 
 | licensure  | [Licensure](#licensure) |  | The medical professional's licensure information. |
 | boardOrders  | [BoardOrders](#boardorders) |  | The medical professional's board order information. |
+| abmsCertifications  | [ABMSBoard[]](#ABMSBoard) |  | The medical professional's ABMS certifications. |
 
 ## MedicalEducationTraining
 
@@ -224,3 +225,22 @@ Provides board order category information
 | - | - | - | - |
 | code  | string | 5 | Required. The category code. |
 | description  | string | 80 | Required. The category description. |
+
+## ABMSBoard
+
+Provides board information containing certificates
+
+| Name | Type | Field Length | Description |
+| - | - | - | - |
+| memberBoardName | string | 80 |  Required. Member Board Short Description. |
+| memberBoardShortName | string | 80 | Member Board Name. |
+| certificates | [ABMSCertificate[]](#ABMSCertificate) | | List of certificates associated with the board. |
+
+## ABMSCertificate
+
+Provides board information containing certificates
+
+| Name | Type | Field Length | Description |
+| - | - | - | - |
+| certificate | string | 80 |  Required. Member Board Short Description. |
+| certificateType | string | 80 | Required. Member Board Name. |

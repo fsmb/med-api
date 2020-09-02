@@ -34,6 +34,7 @@ To learn more about FSMB APIs refer to the [Getting Started](https://github.com/
 | med.read | Grants the ability to read basic physician information. |
 | med.order_read | Grants the ability to read a physician's public board order information. |
 | med.pdc_read | Grants the ability to read a physician's PDC profile. |
+| med.pdc_read.abms | Includes ABMS certifications with a physician's PDC profile. |
 | med.source_read | Grants the ability to read basic board order and licensure information. |
 
 ## Resources
