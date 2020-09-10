@@ -15,6 +15,8 @@ To learn more about FSMB APIs refer to the [Getting Started](https://github.com/
 
 | Version | Date | Release Notes |
 | - | - | -|
+| 2.8 | 9/10/2020 | Included NCCPA certification information in PDC profile for ABMS scope. |
+| 2.7 | 8/19/2020 | Added ABMS certification scope and information to PDC profile. |
 | 2.3 | 2/19/2020 | Added new BoardOrders resource. | 
 | 2.2 | 12/17/2019 | Updated Urls. |
 | 2.1 | 11/13/2019 | Added training endpoint to Practitioner resource. |
@@ -34,7 +36,7 @@ To learn more about FSMB APIs refer to the [Getting Started](https://github.com/
 | med.read | Grants the ability to read basic physician information. |
 | med.order_read | Grants the ability to read a physician's public board order information. |
 | med.pdc_read | Grants the ability to read a physician's PDC profile. |
-| med.pdc_read.abms | Includes ABMS certifications with a physician's PDC profile. |
+| med.pdc_read.abms | Includes ABMS certifications and NCCPA certification info with a physician's PDC profile. |
 | med.source_read | Grants the ability to read basic board order and licensure information. |
 
 ## Resources
