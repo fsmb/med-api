@@ -17,6 +17,7 @@ Provides profile information about a medical professional
 | licensure  | [Licensure](#licensure) |  | The medical professional's licensure information. |
 | boardOrders  | [BoardOrders](#boardorders) |  | The medical professional's board order information. |
 | abmsCertifications  | [ABMSBoard[]](#ABMSBoard) |  | The medical professional's ABMS certifications. |
+| nccpaCertifications  | [NCCPA[]](#NCCPA) |  | The medical professional's NCCPA certification information. |
 
 ## MedicalEducationTraining
 
@@ -244,3 +245,12 @@ Provides board information containing certificates
 | - | - | - | - |
 | certificate | string | 80 |  Required. Member Board Short Description. |
 | certificateType | string | 80 | Required. Member Board Name. |
+
+## NCCPA
+
+Provides NCCPA certificate information on a physician if the PDC ABMS scope is present.
+
+| Name | Type | Field Length | Description |
+| - | - | - | - |
+| certificationNumber | string | 7 |  Required. Certificate Number |
+| isCertified | boolean | | Required. Indicates if physician is currently certified. |

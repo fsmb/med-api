@@ -27,7 +27,7 @@ GET {baseUrl}/v2/practitioners/{fid}/pdcprofile
 | - | - |
 | med.read | Grants the ability to read basic physician information. |
 | med.pdc_read | Grants the ability to read a physician's pdc profile. |
-| med.pdc_read.abms | Includes ABMS certifications with a physician's PDC profile. |
+| med.pdc_read.abms | Includes ABMS and NCCPA certifications with a physician's PDC profile. |
 
 ## Example
 
@@ -288,6 +288,12 @@ Output:
                     "certificateType": "General"
                 }
             ]
+        }
+    ],
+    "nccpaCertifications": [
+        {
+            "certificationNumber": "1234567",
+            "isCertified": true
         }
     ]
 }
