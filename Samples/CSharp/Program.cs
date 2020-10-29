@@ -32,6 +32,6 @@ namespace MedApiSample
         }
 
         private static readonly HttpClient _medClient = new HttpClient() { BaseAddress = new Uri("https://tempuri.org") }; //replace with API address
-        private static readonly HttpClient _authenticationClient = new HttpClient() { BaseAddress = new Uri("https://tempuri.org") }; //replace with authentication address
+        private static readonly HttpClient _authenticationClient = new HttpClient() { BaseAddress = new Uri("https://tempuri.org") }; //replace with API address or authentication address
     }
 }

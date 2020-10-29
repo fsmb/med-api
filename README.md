@@ -15,6 +15,8 @@ To learn more about FSMB APIs refer to the [Getting Started](https://github.com/
 
 | Version | Date | Release Notes |
 | - | - | -|
+| 2.10 | 11/16/2020 | Added optional authorization endpoint to MedAPI. |
+| 2.9 | 10/29/2020 | Updated PDC Profile endpoint. |
 | 2.8 | 9/10/2020 | Included NCCPA certification information in PDC profile for ABMS scope. |
 | 2.7 | 8/19/2020 | Added ABMS certification scope and information to PDC profile. |
 | 2.3 | 2/19/2020 | Added new BoardOrders resource. | 
@@ -44,3 +46,4 @@ To learn more about FSMB APIs refer to the [Getting Started](https://github.com/
 - [Licensure](docs/licensure/README.md)
 - [Practitioners](docs/practitioners/README.md)
 - [BoardOrders](docs/boardOrders/README.md)
+- [Token](docs/token/README.md)
