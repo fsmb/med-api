@@ -9,6 +9,7 @@ To learn more about FSMB APIs refer to the [Getting Started](https://github.com/
   - Production: https://services-med.fsmb.org/
 - [Postman Collection](https://www.getpostman.com/collections/2017e45ba7c7fe1def97)
 - [OpenAPI Specification](https://services-med-demo.fsmb.org/_swagger/v2)
+- [Authentication Docs](https://github.com/fsmb/api-docs/blob/master/docs/authentication.md)
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/2017e45ba7c7fe1def97)
 ## Change Log
@@ -46,4 +47,3 @@ To learn more about FSMB APIs refer to the [Getting Started](https://github.com/
 - [Licensure](docs/licensure/README.md)
 - [Practitioners](docs/practitioners/README.md)
 - [BoardOrders](docs/boardOrders/README.md)
-- [Token](docs/token/README.md)
