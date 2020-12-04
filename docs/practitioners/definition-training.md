@@ -2,9 +2,10 @@
 
 Provides training information about a medical professional
 
-| Name | Type | Field Length | Description |
-| - | - | - | - |
-|accreditedTraining| [PhysicianAccreditedTraining](#accreditedtraining)[] |  | A collection of the medical professional's accredited training. |
+| Name | Type | Description |
+| - | - | - |
+|accreditedTraining| [PhysicianAccreditedTraining](#accreditedtraining)[] | A collection of the medical professional's accredited training. |
+|trainingVerification| [TrainingVerification](#trainingverification) | Provides indicators if training verifications are available. |
 
 ## PhysicianAccreditedTraining
 
@@ -21,8 +22,6 @@ Provides the accredited training information of a medical professional
 | beginDate | string (date) |  | The date the medical professional started the accredited training. |
 | endDate | string (date) |  | The date the medical professional finished the accredited training. |
 
-
-
 ## ProgramDetails
 
 Provides a medical professional's relevant program data 
@@ -34,7 +33,6 @@ Provides a medical professional's relevant program data
 | city | string | 40 | Required. The city where the hospital is located. |
 | stateOrProvince | [Region](#region) |  | Required. The region where the hospital is located. |
 | isFsmbClosedProgram | boolean | | Required. Indicates whether program is an FSMB-held closed program. |
-
 
 ## Specialty
 
@@ -54,3 +52,12 @@ Represents a state or province
 | description | string | 80 | Required. The name of the state or province. |
 | countryCode | string | 2 | The ISO country code. |
 | countryDescription | string | 80 | The name of the country. |
+
+## TrainingVerification
+
+Represents whether training verifications are available
+
+| Name | Type | Description |
+| - | - | - |
+| medicalEducationVerificationsAvailable | boolean | Required. Indicates if the physician has medical education verifications available. |
+| accreditedTrainingVerificationsAvailable | boolean | Required. Indicates if the physician has accredited training verifications available. |
