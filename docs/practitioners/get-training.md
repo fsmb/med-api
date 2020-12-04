@@ -18,7 +18,6 @@ GET {baseUrl}/v2/practitioners/{fid}/training
 | Name | Description     | Type  |
 | ---- | --------------- | ----- |
 | 200  | OK              | [Training](definition-training.md) |
-| 204 | No Content | |
 
 ## Security
 
@@ -65,7 +64,11 @@ Output:
             "beginDate": "2004-09-09T00:00:00",
             "endDate": "2006-07-24T00:00:00"
         }
-    ]
+    ],
+   "trainingVerification": {
+        "medicalEducationVerificationsAvailable": true,
+        "accreditedTrainingVerificationsAvailable": true
+    }
 }
 ```
 
