@@ -4,10 +4,10 @@ This is the source for technical information for the MED API. This API can be us
 
 To learn more about FSMB APIs refer to the [Getting Started](https://github.com/fsmb/api-docs) guide. To learn more about this API and to begin using it in your code please contact [FSMB](mailto:pdc@fsmb.org).
 
-- URL
+- URL 
   - Demo: https://services-med-demo.fsmb.org/
   - Production: https://services-med.fsmb.org/
-- [Postman Collection](https://www.getpostman.com/collections/2017e45ba7c7fe1def97)
+- [Postman Collection](https://www.getpostman.com/collections/83d1cfc224fd0d6376bb)
 - [OpenAPI Specification](https://services-med-demo.fsmb.org/_swagger/v2)
 - [Authentication Docs](https://github.com/fsmb/api-docs/blob/master/docs/authentication.md)
 
@@ -16,6 +16,7 @@ To learn more about FSMB APIs refer to the [Getting Started](https://github.com/
 
 | Version | Date | Release Notes |
 | - | - | -|
+| 2.11 | 12/4/2020 | Updated Postman collection. |
 | 2.10 | 11/16/2020 | Added optional authorization endpoint to MedAPI. |
 | 2.9 | 10/29/2020 | Updated PDC Profile endpoint. |
 | 2.8 | 9/10/2020 | Included NCCPA certification information in PDC profile for ABMS scope. |
