@@ -4,14 +4,13 @@ This is the source for technical information for the MED API. This API can be us
 
 To learn more about FSMB APIs refer to the [Getting Started](https://github.com/fsmb/api-docs) guide. To learn more about this API and to begin using it in your code please contact [FSMB](mailto:pdc@fsmb.org).
 
-- URL 
+- URL
   - Demo: https://services-med-demo.fsmb.org/
   - Production: https://services-med.fsmb.org/
-- [Postman Collection](https://www.getpostman.com/collections/83d1cfc224fd0d6376bb)
 - [OpenAPI Specification](https://services-med-demo.fsmb.org/_swagger/v2)
 - [Authentication Docs](https://github.com/fsmb/api-docs/blob/master/docs/authentication.md)
 
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/2017e45ba7c7fe1def97)
+[![Postman Collection](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/83d1cfc224fd0d6376bb#?env%5BMED%20(Demo)%5D=W3sia2V5IjoiYmFzZVVybCIsInZhbHVlIjoiaHR0cHM6Ly9zZXJ2aWNlcy1tZWQtZGVtby5mc21iLm9yZyIsImVuYWJsZWQiOnRydWV9LHsia2V5IjoiY2xpZW50SWQiLCJ2YWx1ZSI6IkRPX05PVF9TRVQiLCJlbmFibGVkIjp0cnVlfSx7ImtleSI6ImNsaWVudFNlY3JldCIsInZhbHVlIjoiRE9fTk9UX1NFVCIsImVuYWJsZWQiOnRydWV9LHsia2V5IjoiYWNjZXNzVG9rZW4iLCJ2YWx1ZSI6IlNFVF9CWV9BVVRIRU5USUNBVElPTiIsImVuYWJsZWQiOnRydWV9XQ==)
 
 ## Change Log
 
