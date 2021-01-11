@@ -12,6 +12,7 @@ To learn more about FSMB APIs refer to the [Getting Started](https://github.com/
 - [Authentication Docs](https://github.com/fsmb/api-docs/blob/master/docs/authentication.md)
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/2017e45ba7c7fe1def97)
+
 ## Change Log
 
 | Version | Date | Release Notes |
