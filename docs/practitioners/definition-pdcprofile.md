@@ -7,9 +7,10 @@ Provides profile information about a medical professional
 | Name | Type | Field Length | Description |
 | - | - | - | - |
 | fid  | string | 9 | Required. The medical professional's FID. |
+| profession | string | | The medical professional's profession type (either Physician or Physician Assistant). |
+| medicalEducation  | [MedicalEducationTraining](#medicaleducationtraining) |  | The medical professional's medical education. |
 | npi | string | 10 | [Deprecated - Use npiNumbers]The medical professional's NPI number. |
 | gender  | string | 1 | The medical professional's gender. |
-| medicalEducation  | [MedicalEducationTraining](#medicaleducationtraining) |  | The medical professional's medical education. |
 | names  | [PhysicianNames](#physiciannames) |  | The medical professional's names. |
 | addresses  | [PhysicianAddresses](#physicianaddresses) |  | The medical professional's addresses. |
 | deaNumbers | [DEA[]](#dea) | | A collection of the medical professional's DEA numbers |

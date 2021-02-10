@@ -42,6 +42,7 @@ Output:
 ```json
 {
     "fid": "999999915",
+    "profession": "Physician",
     "medicalEducation": {
         "graduating": {
             "school": {

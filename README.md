@@ -17,6 +17,7 @@ To learn more about FSMB APIs refer to the [Getting Started](https://github.com/
 
 | Version | Date | Release Notes |
 | - | - | -|
+| 2.12 | 2/3/2021 | Added profession to PDC Profile.
 | 2.11 | 12/4/2020 | Updated Postman collection and added verification indicators to training. |
 | 2.10 | 11/16/2020 | Added optional authorization endpoint to MedAPI. |
 | 2.9 | 10/29/2020 | Updated PDC Profile endpoint. |
