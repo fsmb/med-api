@@ -1,4 +1,0 @@
-# Do not all Mac clients to convert ANY line endings on checkin
-# Go in as is and come out as is
-* -text
-
