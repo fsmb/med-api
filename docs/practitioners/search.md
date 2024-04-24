@@ -17,9 +17,10 @@ GET {baseUrl}/v2/practitioners/search?firstName={firstname}&lastName={lastname}&
 | suffix | query | False | string | The suffix of the medical professional.  |
 | npi | query | * | string | The medical professional's NPI number. |
 | deaNumber | query | * | string | The medical professional's DEA number. |
-| licenseNumber | query | * | string| The medical professional's license number. |
+| licenseNumber | query | * | string | The medical professional's license number. |
+| nccpaId | query | * | string | NCCPA identifier. |
 
-<sub>*At least one of the medical professional's identifying numbers is required to search. (npi,licenseNumber,deaNumber)</sub>
+<sub>*At least one of the medical professional's identifying numbers is required to search.</sub>
 
 ## Responses
 
