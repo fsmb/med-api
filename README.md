@@ -1,35 +1,32 @@
 # MED API
 
-This is the source for technical information for the MED API. This API can be used to handle basic physician validation and obtain summary licensure or physician information. 
+The MED API provides common search functionality for FSMB data. This API can be used to find basic information about physicians. 
 
-To learn more about FSMB APIs refer to the [Getting Started](https://github.com/fsmb/api-docs) guide. To learn more about this API and to begin using it in your code please contact [FSMB](mailto:pdc@fsmb.org).
+Refer to the [Getting Started](https://github.com/fsmb/api-docs) guide to learn more general information about FSMB API, terminology, authentication, FSMB codes and more. For more information and to begin using this API please contact [FSMB](mailto:pdc@fsmb.org).
 
 - URL
-  - Demo: https://services-med-demo.fsmb.org/
-  - Production: https://services-med.fsmb.org/
-- [Postman Collection](https://www.getpostman.com/collections/2017e45ba7c7fe1def97)
+  - Demo: `https://services-med-demo.fsmb.org/`
+  - Production: `https://services-med.fsmb.org/`  
+- Authentication URL `<baseUrl>/connect/token`
+- [Postman Workspace](https://www.postman.com/crimson-shadow-2749/workspace/public-fsmb/collection/1384052-7eb29d9c-dac0-4d7b-b706-a4a2a029fbfc?action=share&creator=1384052&active-environment=1384052-a89b4dab-0ca9-4159-ad5c-0b8c0b1c141d)
 - [OpenAPI Specification](https://services-med-demo.fsmb.org/_swagger/v2)
-- [Authentication Docs](https://github.com/fsmb/api-docs/blob/master/docs/authentication.md)
-
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/2017e45ba7c7fe1def97#?env%5BMED%20(Demo)%5D=W3sia2V5IjoiYmFzZVVybCIsInZhbHVlIjoiaHR0cHM6Ly9zZXJ2aWNlcy1tZWQtZGVtby5mc21iLm9yZyIsImVuYWJsZWQiOnRydWV9LHsia2V5IjoiY2xpZW50SWQiLCJ2YWx1ZSI6IkRPX05PVF9TRVQiLCJlbmFibGVkIjp0cnVlfSx7ImtleSI6ImNsaWVudFNlY3JldCIsInZhbHVlIjoiRE9fTk9UX1NFVCIsImVuYWJsZWQiOnRydWV9LHsia2V5IjoiYWNjZXNzVG9rZW4iLCJ2YWx1ZSI6IlNFVF9CWV9BVVRIRU5USUNBVElPTiIsImVuYWJsZWQiOnRydWV9XQ==)
 
 ## Change Log
 
-| Version | Date | Release Notes |
-| - | - | -|
-| 2.12 | 2/3/2021 | Added profession to PDC Profile.
-| 2.11 | 12/4/2020 | Updated Postman collection and added verification indicators to training. |
-| 2.10 | 11/16/2020 | Added optional authorization endpoint to MedAPI. |
-| 2.9 | 10/29/2020 | Updated PDC Profile endpoint. |
-| 2.8 | 9/10/2020 | Included NCCPA certification information in PDC profile for ABMS scope. |
-| 2.7 | 8/19/2020 | Added ABMS certification scope and information to PDC profile. |
-| 2.3 | 2/19/2020 | Added new BoardOrders resource. | 
-| 2.2 | 12/17/2019 | Updated Urls. |
-| 2.1 | 11/13/2019 | Added training endpoint to Practitioner resource. |
-| 2.0 | 6/6/2019 | Updated search endpoint. | 
-| 1.2 | 3/13/2019 | Retrieve a physician's PDC profile. |
-| 1.1 | 1/25/2017 | |
-| 1.0 | 9/22/2016 | Initial version |
+| Date | Release Notes |
+| - | -|
+| 3 Feb 2021 | Added profession to PDC Profile.
+| 4 Dec 2020 | Updated Postman collection and added verification indicators to training. |
+| 16 Nov 2020 | Added optional authorization endpoint to MedAPI. |
+| 20 Oct 2020 | Updated PDC Profile endpoint. |
+| 10 Sep 2020 | Included NCCPA certification information in PDC profile for ABMS scope. |
+| 19 Aug 2020 | Added ABMS certification scope and information to PDC profile. |
+| 19 Feb 2020 | Added new BoardOrders resource. | 
+| 17 Dec 2019 | Updated Urls. |
+| 13 Nov 2019 | Added training endpoint to Practitioner resource. |
+| 6 Jun 2019 | Updated search endpoint. | 
+| 13 Mar 2019 | Retrieve a physician's PDC profile. |
+| 22 Sep 2016 | Initial version |
 
 ## Security
 
