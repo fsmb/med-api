@@ -2,7 +2,7 @@
 
 The MED API provides common search functionality for FSMB data. This API can be used to find basic information about physicians. 
 
-Refer to the [Getting Started](https://github.com/fsmb/api-docs) guide to learn more general information about FSMB API, terminology, authentication, FSMB codes and more. For more information and to begin using this API please contact [FSMB](mailto:pdc@fsmb.org).
+Refer to the [Getting Started](https://github.com/fsmb/api-docs) guide to learn more general information about FSMB APIs, terminology, authentication, FSMB codes and more. For more information and to begin using this API please contact [FSMB](mailto:pdc@fsmb.org).
 
 - URL
   - Demo: `https://services-med-demo.fsmb.org/`
