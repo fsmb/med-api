@@ -6,7 +6,7 @@ Medical school
 | - | - | - | - |
 | medicalSchoolName | string | Yes | School name |
 | cibisCode | string | Yes | CIBIS code |
-| schoolType | [ImlccSchoolType][imlcc-school-type.md] | Yes | Type of school |
+| schoolType | [ImlccSchoolType](imlcc-school-type.md) | Yes | Type of school |
 | city | string | | City |
 | stateOrProvince | [StateOrProvince](../state-or-province.md) | Yes | State or province |
 | country | string | Yes | Country |
@@ -14,4 +14,5 @@ Medical school
 | medicalSchoolReportingFormat | string | No | |
 
 *Note: Any fields marked as deprecated will be removed in a future version of the API. New code should not rely on these fields. Existing code should be updated to use alternative fields.*
+
 
