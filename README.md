@@ -1,6 +1,6 @@
 # MED API
 
-The MED API provides common search functionality for FSMB data. This API can be used to find basic information about physicians. 
+The MED API provides common search functionality for FSMB data. This API can be used to find basic information about physicians.
 
 Refer to the [Getting Started](https://github.com/fsmb/api-docs) guide to learn more general information about FSMB APIs, terminology, authentication, FSMB codes and more. For more information and to begin using this API please contact [FSMB](mailto:pdc@fsmb.org).
 
@@ -15,35 +15,38 @@ Refer to the [Getting Started](https://github.com/fsmb/api-docs) guide to learn 
 
 | Date | Release Notes |
 | - | -|
-| 3 Feb 2021 | Added profession to PDC Profile.
+| 13 Nov 2025 | Added documentation for IMLCC. |
+| 3 Feb 2021 | Added profession to PDC Profile. |
 | 4 Dec 2020 | Updated Postman collection and added verification indicators to training. |
 | 16 Nov 2020 | Added optional authorization endpoint to MedAPI. |
 | 20 Oct 2020 | Updated PDC Profile endpoint. |
 | 10 Sep 2020 | Included NCCPA certification information in PDC profile for ABMS scope. |
 | 19 Aug 2020 | Added ABMS certification scope and information to PDC profile. |
-| 19 Feb 2020 | Added new BoardOrders resource. | 
+| 19 Feb 2020 | Added new BoardOrders resource. |
 | 17 Dec 2019 | Updated Urls. |
 | 13 Nov 2019 | Added training endpoint to Practitioner resource. |
-| 6 Jun 2019 | Updated search endpoint. | 
+| 6 Jun 2019 | Updated search endpoint. |
 | 13 Mar 2019 | Retrieve a physician's PDC profile. |
 | 22 Sep 2016 | Initial version |
 
 ## Security
 
-### Scopes 
+### Scopes
 
 | Scope | Description |
 | - | - |
-| med.bio_read | Grants the ability to read a physician's verified information. |
-| med.cdc_read | Grants the ability to read a physician's profile. |
-| med.read | Grants the ability to read basic physician information. |
-| med.order_read | Grants the ability to read a physician's public board order information. |
-| med.pdc_read | Grants the ability to read a physician's PDC profile. |
+| med.bio_read | Grants the permission to read a physician's verified information. |
+| med.cdc_read | Grants the permission to read a physician's profile. |
+| med.imlcc_read | Grants the permission to read a physician's IMLCC profile. |
+| med.read | Grants the permission to read basic physician information. |
+| med.order_read | Grants the permission to read a physician's public board order information. |
+| med.pdc_read | Grants the permission to read a physician's PDC profile. |
 | med.pdc_read.abms | Includes ABMS certifications and NCCPA certification info with a physician's PDC profile. |
-| med.source_read | Grants the ability to read basic board order and licensure information. |
+| med.source_read | Grants the permission to read basic board order and licensure information. |
 
 ## Resources
 
+- [IMLCC](docs/imlcc/readme.md)
 - [Licensure](docs/licensure/README.md)
 - [Practitioners](docs/practitioners/README.md)
 - [BoardOrders](docs/boardOrders/README.md)
