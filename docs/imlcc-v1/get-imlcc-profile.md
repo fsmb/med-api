@@ -18,7 +18,7 @@ GET :baseUrl/v1/imlcc/:fid/profile
 | Name | Type  | Description |
 | ---- | ------ | ----- |
 | 200  | [ImlccProfile](/docs/definitions/imlcc/imlcc-profile.md) | OK |
-| 404  | Not Found | |
+| 404  | | Not Found |
 
 ## Security
 
@@ -104,3 +104,4 @@ Note: Output is elided. Refer to [ImlccProfile](/docs/definitions/imlcc/imlcc-pr
 ```
 
 For more examples go to [samples](/Samples/).
+
