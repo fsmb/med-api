@@ -46,7 +46,8 @@ Refer to the [Getting Started](https://github.com/fsmb/api-docs) guide to learn 
 
 ## Resources
 
-- [IMLCC](docs/imlcc/readme.md)
+- [IMLCC](docs/imlcc-v1/readme.md)
 - [Licensure](docs/licensure/README.md)
 - [Practitioners](docs/practitioners/README.md)
 - [BoardOrders](docs/boardOrders/README.md)
+
