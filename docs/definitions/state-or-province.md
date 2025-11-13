@@ -1,6 +1,9 @@
-# ImlccStateOrProvince
+# StateOrProvince
+
+State or province
 
 | Name | Type | Required | Description |
 | - | - | - | - |
-| code | string | Yes | |
-| description | string | Yes | |
+| code | string | Yes | State or province code |
+| description | string | Yes | State or province description |
+
