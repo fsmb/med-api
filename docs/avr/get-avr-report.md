@@ -3,7 +3,7 @@
 Gets the AVR report for a physician. The report is returned as a PDF.
 
 ```http
-GET {baseUrl}/v1/avr/{fid}
+GET {baseUrl}/v1/avr/{fid}/report
 ```
 
 ## URI Parameters
