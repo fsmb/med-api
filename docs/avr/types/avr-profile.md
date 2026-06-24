@@ -1,4 +1,4 @@
-# AVR Profile
+# AvrProfile
 
 AVR profile
 
