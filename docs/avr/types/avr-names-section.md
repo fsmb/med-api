@@ -1,4 +1,4 @@
-# AVR Names Section
+# AvrNamesSection
 
 Names section
 
