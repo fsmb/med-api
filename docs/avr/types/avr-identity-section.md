@@ -1,4 +1,4 @@
-# AVR Identity Section
+# AvrIdentitySection
 
 Physician identity section
 
