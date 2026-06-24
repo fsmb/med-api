@@ -30,11 +30,11 @@ Required scopes
 
 ## Examples
 
-[Get AVR PDF](#get-avr-pdf) 
+[Get AVR](#get-avr) 
 
 ***
 
-### Get AVR PDF
+### Get AVR
 
 #### Sample Request
 
