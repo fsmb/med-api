@@ -1,4 +1,4 @@
-# Get AVR Report
+# Get AVR Profile Report
 
 Gets the AVR report for a physician. The report is returned as a PDF.
 
@@ -39,7 +39,7 @@ Required scopes
 #### Sample Request
 
 ```http
-GET {baseUrl}/v1/avr/999999915
+GET {baseUrl}/v1/avr/999999915/report
 ```
 
 #### Sample Response
