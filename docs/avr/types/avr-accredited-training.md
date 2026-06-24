@@ -15,6 +15,6 @@ Accredited training
 | endDate | string (date) | No | End date of the training, if completed |
 | city | string (len: 50) | No | City of the program |
 | stateOrProvince | string (len: 100) | No | State or province of the program |
-| country | string (len: 100) No | Country of the program |
+| country | string (len: 100) | No | Country of the program |
 
 *Note: Any fields marked as deprecated will be removed in a future version of the API. New code should not rely on these fields. Existing code should be updated to use alternative fields.*
