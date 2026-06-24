@@ -6,7 +6,7 @@ AVR profile
 | - | - | - | - |
 | fid | string (format: digits, len: 9) | Yes | FID of the physician |
 | reportDateUtc | string (format: date) | Yes | Date and time the profile was generated |
-| identity | [AvrIdentity](avr-identity.md) | Yes | Physician identity information |
+| identity | [AvrIdentitySection](avr-identity-section.md) | Yes | Physician identity information |
 | names | [AvrNamesSection](avr-names-section.md) | Yes | Physician names |
 | medicalEducation | [AvrMedicalEducationSection](avr-medicaleducation-section.md) | Yes | Medical education |
 | boardOrders | [AvrBoardOrdersSection](avr-boardorders-section.md) | Yes | Board orders |
