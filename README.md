@@ -15,7 +15,7 @@ Refer to the [Getting Started](https://github.com/fsmb/api-docs) guide to learn 
 
 | Date | Release Notes |
 | - | -|
-| 16 Jun 2026 | [Release Notes](relnotes/release-20260616.md) |
+| 16 Jun 2026 | [Release Notes](relnotes/release-202606.md) |
 | 3 Feb 2021 | Added profession to PDC Profile. |
 | 4 Dec 2020 | Updated Postman collection and added verification indicators to training. |
 | 16 Nov 2020 | Added optional authorization endpoint to MedAPI. |
