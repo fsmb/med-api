@@ -1,4 +1,4 @@
-# AVR Medical Education Section
+# AvrMedicalEducationSection
 
 Medical education section
 
