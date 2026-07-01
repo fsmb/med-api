@@ -4,7 +4,7 @@ Physician name
 
 | Name | Type | Required | Description |
 | - | - | - | - |
-| firstName | string (len: 50) | Yes | First name |
+| firstName | string (len: 50) | No | First name |
 | middleName | string (len: 50) | No | Middle name |
 | lastName | string (len: 50) | Yes | Last name |
 | suffix | string (len: 4) | No | Suffix |
