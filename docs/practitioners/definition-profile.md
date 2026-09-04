@@ -2,223 +2,224 @@
 
 Provides profile information about a medical professional
 
-| Name | Type | Field Length | Description |
+| Name | Type | Required | Description |
 | - | - | - | - |
-| fid  | string | 9 | Required. The medical professional's FID. |
-|identity| [Identification](#identification) |  | Required. The medical professional's identity information. |
-|names |[ProfessionalName[]](#professionalname) |  | Required. A collection of the medical professional's names. |
-|addresses| [Address[]](#address) |  | Required. A collection of the medical professional's addresses. |
-|emailAddresses|[EmailAddress[]](#emailaddress) |  | Required. A collection of the medical professional's email addresses. |
-|phones|[Phone[]](#phone) |  | Required. A collection of the medical professional's phone numbers. |
-|medicalEducation|[MedicalEducation[]](#medicaleducation) |  | Required. A collection of the medical professional's Medical Education. |
-|ecfmg|[ECFMG](#ecfmg)|  | The medical professional's ECFMG information. |
-|fifthPathway|[FifthPathway](#fifthpathway) |  | The medical professional's Fifth Pathway information. |
-|accreditedTraining| [AccreditedTraning[]](#accreditedtraining) |  | A collection of the medical professional's accredited training. |
-|otherTraining| [OtherTraining[]](#othertraining) |  | A collection of the medical professional's other training. |
-|activities| [Activity[]](#activity) |  | A collection of the medical professional's activities. |
+| fid  | string (len: 9, format: digits) | Y | FID of the physician |
+| identity| [Identification](#identification) | Y | Identity information |
+| names | [ProfessionalName[]](#professionalname) | Y | List of names |
+| addresses | [Address[]](#address) | Y | List of mailing addresses |
+| emailAddresses | [EmailAddress[]](#emailaddress) | Y | List of email addresses |
+| phones | [Phone[]](#phone) | Y | List of phone numbers |
+| medicalEducation | [MedicalEducation[]](#medicaleducation) | Y | Medical education |
+| ecfmg | [ECFMG](#ecfmg) | N | ECFMG information, if any |
+| fifthPathway | [FifthPathway](#fifthpathway) | N | Fifth Pathway information, if any |
+| accreditedTraining | [AccreditedTraning[]](#accreditedtraining) | N | Accredited training |
+| otherTraining | [OtherTraining[]](#othertraining) | N | Nonaccredited training |
+| activities | [Activity[]](#activity) | N | Activities |
 
 ## AccreditedTraining
 
 Provides the accredited training information of a medical professional
 
-| Name | Type | Field Length | Description |
+| Name | Type | Required | Description |
 | - | - | - | - |
-| accreditationType | string | 5 | The type of accreditation. |
-| programCode | string | 10 | Required. The program code. |
-| program | [Program](#program) |  | Required. Program information. |
-| specialty | [Specialty](#specialty) |  | Required. Specialty information. |
-| programType | string | 80 | Required. The program type. |
-| trainingStatus | string | 80 | Required. The medical professional's training status. |
-| beginDate | string (date) |  | The date the medical professional started the accredited training. |
-| endDate | string (date) |  | The date the medical professional finished the accredited training. |
+| accreditationType | string (len: 5) | Y | Accreditation type (e.g. ACGME) |
+| programCode | string (len: 10)  | Y | Program code |
+| program | [Program](#program) | Y | Program information |
+| specialty | [Specialty](#specialty) | Y | Specialty information |
+| programType | string (len: 80) | Y | Type of program |
+| trainingStatus | string (len: 80) | Y | Training status (e.g. Active, Complete) |
+| beginDate | string (date) | N | Start date of the training |
+| endDate | string (date) | N | End date of the training |
 
 ## Activity
 
 Provides information about an activity a medical professional took part in
 
-| Name | Type | Field Length | Description |
+| Name | Type | Required | Description |
 | - | - | - | - |
-| type | string | 80 | Required. The type of activity. |
-| inProgress | boolean |  | Indicates whether the activity is still in progress. |
-| beginDate | string (date) |  | The date the activity started. |
-| endDate | string (date) |  | The date the activity finished, if it has finished. |
-| description | string | 80 | Required. The description of the activity. |
-| addressLines| string[] | 100 | Required. A collection of address lines of where the activity has taken, or is taking, place. |
-| city | string | 40 | Required. The name of the city where the activity has taken, or is taking, place. |
-| stateOrProvince | [Region](#region) |  | Required. The region where the activity has taken, or is taking, place. |
-| postalCode | string | 9 | The postal code where the activity has taken, or is taking, place. |
-| position | string | 80 | The medical professional's position during the activity. |
-| department | string | 80 | The department the medical professional was in during the activity. |
-| wasEmployed | boolean |  | Indicates whether the medical professional was employed during the activity. |
-| hadStaffPrivilages | boolean |  | Indicates whether the medical professional had staff privileges over the duration of the activity. |
-| wasAffiliated | boolean |  | Indicates whether the medical professional had any affiliations during the duration of the activity. |
-| percentageClinical | integer |  | Represents how much of the activity was clinical. |
-| percentageAdministrative | integer |  | Represents how much of the activity was administrative. |
+| type | string (len: 80) | Y | Type of activity (e.g. Work) |
+| inProgress | boolean | Y | Indicates whether the activity is still in progress |
+| beginDate | string (date) | Y  | Start date of the activity |
+| endDate | string (date) | N | End date of the activity, if completed |
+| description | string (len: 80) | Y | Description of activity |
+| addressLines| string[] (len: 100) | Y | List of address lines where the activity has taken, or is taking, place |
+| city | string (len: 40) | Y | City where the activity has taken, or is taking, place. |
+| stateOrProvince | [Region](#region) | Y | Region where the activity has taken, or is taking, place |
+| postalCode | string (len: 9) | N | Postal code where the activity has taken, or is taking, place |
+| position | string (len: 80) | Y | The medical professional's position during the activity |
+| department | string (len: 80) | Y | The department the medical professional was in during the activity |
+| wasEmployed | boolean | Y | Indicates whether the medical professional was employed during the activity |
+| hadStaffPrivilages | boolean | Y | Indicates whether the medical professional had staff privileges over the duration of the activity |
+| wasAffiliated | boolean | Y | Indicates whether the medical professional had any affiliations during the duration of the activity |
+| percentageClinical | integer | Y | Percentage of the activity that was clinical |
+| percentageAdministrative | integer | Y | Percentage of the activity that was administrative |
 
 ## Address
 
 Provides the address information of a medical professional
 
-| Name | Type | Field Length | Description |
+| Name | Type | Required | Description |
 | - | - | - | - |
-| isPrimary  | boolean |  | Required. Indicates whether the provided address is the medical professional's primary address. |
-| addressType | string | 80 | Required. Indicates what the address is for (e.g. Home, Business). |
-| lines | string[] | 100 | A collection of address lines of the address. |
-| city | string | 40 | Required. The city name of the address. |
-| stateOrProvince| [Region](#region)|  | Required. The state or province of the address. |
-| postalCode | string | 9 | Required. The postal code of the address. |
+| isPrimary | boolean | Y | Indicates if this is the primary address |
+| addressType | string (len: 80) | Y | Address type (e.g. Home, Business) |
+| lines | string[] (len: 100) | Y | List of address lines |
+| city | string (len: 40) | Y | City |
+| stateOrProvince| [Region](#region) | Y | State or province |
+| postalCode | string (len: 9) | Y | Postal code |
 
 ## CodedDescription
 
 Acts as a wrapper around a code and user-friendly description of the code
 
-| Name | Type | Field Length | Description |
+| Name | Type | Required | Description |
 | - | - | - | - | 
-| code  | string | 5 | The code. |
-| description | string | 80 |  The user-friendly description of the code. |
+| code  | string (len: 5) | Y | Code |
+| description | string (len: 80) | N | User-friendly description |
 
 ## ECFMG
 
 Provides the ECFMG certification information of a medical professional
 
-| Name | Type | Field Length | Description |
+| Name | Type | Required | Description |
 | - | - | - | - |
-| ecfmgId | string | 8 | Required. The medical professional's ECFMG ID. |
-| IssueDate | string (date) |  | The issue date of the certification. |
+| ecfmgId | string (len: 8) | Y |  ECFMG ID|
+| IssueDate | string (date) | N | Issue date of the certification |
 
 ## EmailAddress
 
 Provides the email address information of a medical professional
 
-| Name | Type | Field Length | Description |
+| Name | Type | Required | Description |
 | - | - | - | - | 
-| isPrimary  | boolean |  | Indicates whether the provided email address is the medical professional's primary email address. |
-| email | string | 80 | Required. The medical professional's email address. |
+| isPrimary | boolean | Y | Indicates if this is the primary email address |
+| email | string (len: 80) | Y | Email address |
 
 ## FifthPathway
 
 Provides the Fifth Pathway certification information of a medical professional 
 
-| Name | Type | Field Length | Description |
+| Name | Type | Required | Description |
 | - | - | - | - | 
-| school | [FifthPathwaySchool](#fifthpathwayschool) |  | Required. The school the medical professional attended to receive their Fifth Pathway certification. |
-|startDate | string (date) |  | The date the medical professional started attendance at the Fifth Pathway school. |
-|endDate | string (date) |  | The date the medical professional finished attending the Fifth Pathway school. |
-|certificateDate | string (date) |  | The date the medical professional received their Fifth Pathway certification. |
+| school | [FifthPathwaySchool](#fifthpathwayschool) | Y | Fifth Pathway school |
+| startDate | string (date) | Y | Attendance start date |
+| endDate | string (date) | Y | Attendance end date |
+| certificateDate | string (date) | N | Fifth Pathway certification date |
 
 ## FifthPathwaySchool
 
 Provides the Fifth Pathway medical school information of a medical professional 
 
-| Name | Type | Field Length | Description |
+| Name | Type | Required | Description |
 | - | - | - | - |
-| name  | string | 80 | Required. The name of the school. |
-| affiliatedInstitution| string | 80 | Required. The institution associated with the school. |
-| cibisCode | string | 6 | Required. The code that CIBIS uses to identify the school. |
-| schoolType | [CodedDescription](#codeddescription) |  | The degree information. |
-| city | string | 40 | The name of the city where the school is located. |
-| stateOrProvince | [Region](#region) |  | The state or province where the school is located. | 
+| name  | string (len: 80) | Y | School name |
+| affiliatedInstitution| string (len: 80) | Y | Institution associated with the school |
+| cibisCode | string (len: 6) | Y | School CIBIS code |
+| schoolType | [CodedDescription](#codeddescription) | Y | School degree type (e.g. MD, DO) |
+| city | string (len: 40) | Y | City where school was located |
+| stateOrProvince | [Region](#region) | Y | State or province where the school was located | 
 
 ## Identification
 
 Provides the identification information of the medical professional
 
-| Name | Type |  Field Length | Description |
+| Name | Type |  Required | Description |
 | - | - | - | - |
-| ssnLast4  | string | 4 | The last four digits of the medical professional's SSN. |
-| npi | string | 10 | The National Provider Identifier. |
-| usmleId | string | 8 | The medical professional's USMLE identification number. |
-| birthDate | string (date) |  | The medical professional's date of birth. |
-| birthCity | string | 40 | Required. The medical professional's city of birth. |
-| birthStateOrProvince | [Region](#region) |  | Required. The medical professional's state or province of  birth. |
-| gender | string | 1 | Required. The medical professional's gender. |
+| ssnLast4  | string (len: 4) | Y | SSN last four digits |
+| npi | string (len: 10) | N | National Provider Identifier |
+| usmleId | string (len: 8) | N | USMLE ID |
+| birthDate | string (date) | Y | Date of birth |
+| birthCity | string (len: 40) | Y | City of birth |
+| birthStateOrProvince | [Region](#region) | Y | State or province of  birth |
+| gender | string (len: 1) | Y | Gender (e.g. M, F) |
 
 ## MedicalEducation
 
 Provides the medical education information of a medical professional
 
-| Name | Type | Field Length | Description |
+| Name | Type | Required | Description |
 | - | - | - | - | 
-| school  | [School](#school) |  | Required. School information. |
-| beginDate | string (date) |  | The date a medical professional started attending  a school. |
-| endDate | string (date) |  | The date a medical professional finished attending a school. |
-| degree | [CodedDescription](#codeddescription) |  | The degree. |
-| graduationDate | string (date) |  | The date the medical professional who attended the school graduated. | 
+| school | [School](#school) | Y | School information |
+| beginDate | string (date) | Y | Attendance start date |
+| endDate | string (date) | Y | Attendance end date |
+| degree | [CodedDescription](#codeddescription) | N | Degree, if graduated |
+| graduationDate | string (date) | N | Graduation date, if graduated | 
 
 ## OtherTraining
 
 Provides the other training information of a medical professional
 
-| Name | Type | Field Length | Description |
+| Name | Type | Required | Description |
 | - | - | - | - |
-| program | [Program](#program) |  | Required. Program information. |
-| specialty | [Specialty](#specialty) |  | Required. Specialty information. |
-| programType | string | 80 | Required. The program type. |
-| trainingStatus | string | 80 | Required. The medical professional's training status. |
-| beginDate | string (date) |  | The date the medical professional started the training. |
-| endDate | string (date) |  | The date the medical professional finished the training. |
+| program | [Program](#program) | Y | Program information |
+| specialty | [Specialty](#specialty) | Y | Specialty information |
+| programType | string (len: 80) | Y | Program type |
+| trainingStatus | string (len: 80) | Y | Training status (e.g. Active, Completed) |
+| beginDate | string (date) | Y | Training start date |
+| endDate | string (date) | Y | Training end date |
 
 ## Phone
 
 Provides the phone information of a medical professional
 
-| Name | Type   | Field Length | Description |
+| Name | Type   | Required | Description |
 | ---- | ------ | ------------ | ----------- |
-| isPrimary  | boolean |  | Indicates whether the provided email address is the medical professional's primary. |
-| phoneType | string | 80 | Indicates the phone type. |
-| phoneNumber | string | 10 | The medical professional's phone number. |
-| extension | string | 4 | The extension for the phone number. |
+| isPrimary  | boolean | Y | Indicates if this is the primary phone number |
+| phoneType | string (len: 80) | Y | Phone type (e.g. Home, Business) |
+| phoneNumber | string (len: 10) | Y | Phone number |
+| extension | string (len: 4) | N | Phone extension |
 
 ## ProfessionalName
 
-Provides the name information of a medical professional
+Physician name
 
-| Name | Type | Field Length | Description |
+| Name | Type | Required | Description |
 | - | - | - | - |
-| isLegal  | boolean |  | Indicates whether the provided name is their legal name. |
-| firstName| string | 50 | Required. The medical professional's first name. |
-| middleName | string | 50 | The medical professional's middle name. |
-| lastName | string | 50 | Required. The medical professional's last name. |
-| suffix | string | 4 | The suffix the medical professional uses. |
+| isLegal | boolean | Y | Indicates whether the provided name is the legal name |
+| firstName| string (len: 50) | Y | First name (If `isSingularName` is true then this value should be ignored) |
+| middleName | string (len: 50)  | N | Middle name, if any |
+| lastName | string (len: 50) | Y | Last name |
+| suffix | string (len: 4) | N | Suffix, if any |
+| isSingularName | boolean | Y | Indicates if this is a singular name | 
 
 ## Program
 
 Provides a medical professional's relevant program data 
 
-| Name | Type | Field Length | Description |
+| Name | Type | Required | Description |
 | - | - | - | - |
-| hospitalName | string | 80 | Required. The hospital's name. |
-| affiliatedInstitution | string | 80 | The institution the program is affiliated with. |
-| city | string | 40 | Required. The city where the hospital is located. |
-| stateOrProvince | [Region](#region) |  | Required. The region where the hospital is located. |
+| hospitalName | string (len: 80) | Y | Hospital name |
+| affiliatedInstitution | string (len: 80) | N | Affiliated institution name, if any |
+| city | string (len: 40) | Y | City |
+| stateOrProvince | [Region](#region) | Y | State or province |
 
 ## Region
 
 Represents a state or province
 
-| Name | Type | Field Length | Description |
+| Name | Type | Required | Description |
 | - | - | - | - |
-| code  | string | 3 |Required. The state or province code. |
-| description | string | 80 | Required. The name of the state or province. |
-| countryCode | string | 2 | The ISO country code. |
-| countryDescription | string | 80 | The name of the country. |
+| code  | string (len: 3) | Y | State or province code |
+| description | string (len: 80) | Y | State or province name |
+| countryCode | string (len: 2) | Y | ISO country code |
+| countryDescription | string (len: 80) | Y | Country name |
 
 ## School
 
 Provides the medical school information of a medical professional 
 
-| Name | Type | Field Length | Description |
+| Name | Type | Required | Description |
 | - | - | - | - |
-| name  | string | 80 | Required. The name of the school. |
-| cibisCode | string | 6 | The code that CIBIS uses to identify the school. |
-| schoolType | [CodedDescription](#codeddescription) |  | Required. Practitioner Type for the school. |
-| city | string | 40 | The name of the city where the school is located. |
-| stateOrProvince | [Region](#region) |  | The state or province where the school is located. | 
+| name  | string (len: 80) | Y | School name |
+| cibisCode | string (len: 6) | Y | CIBIS code |
+| schoolType | [CodedDescription](#codeddescription) | Y | School type (e.g. MD, DO) |
+| city | string (len: 40) | Y | City where school is located |
+| stateOrProvince | [Region](#region) | Y | State or province where the school is located | 
 
 ## Specialty
 
 Provides specialty information
 
-| Name | Type | Field Length | Description |
+| Name | Type | Required | Description |
 | - | - | - | - |
-| description | string | 160 | Required. Describes the specialty. |
+| description | string (len: 160) | Y | Specialty description |
