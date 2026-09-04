@@ -11,7 +11,7 @@ GET {baseUrl}/v2/practitioners/search?firstName={firstname}&lastName={lastname}&
 | Name | In | Required | Type | Description |
 | ---- | -- | -------- | ---- | ----------- |
 | baseUrl | path | True | string| The API URL. |
-| firstName | query | True | string | The first name of the medical professional.  |
+| firstName | query | False | string | The first name of the medical professional.  |
 | middleName | query | False | string | The middle name of the medical professional.  |
 | lastName | query | True | string | The last name of the medical professional.  |
 | suffix | query | False | string | The suffix of the medical professional.  |
